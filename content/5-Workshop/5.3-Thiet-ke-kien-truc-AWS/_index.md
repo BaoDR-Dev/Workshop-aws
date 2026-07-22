@@ -1,4 +1,4 @@
----
+﻿---
 title: "Design the AWS Architecture"
 date: 2026-07-10
 weight: 3
@@ -10,7 +10,7 @@ pre: " <b> 5.3. </b> "
 
 ## Overall architecture
 
-![Overall AWS architecture of RecruitPro](</images/5-Workshop/5.3-Thiet-ke-kien-truc-AWS/5.3.1-Tong-quan-kien-truc-he-thong/hientai.jpg>)
+![Overall AWS architecture of RecruitPro](</Workshop-aws/images/5-Workshop/5.3-Thiet-ke-kien-truc-AWS/5.3.1-Tong-quan-kien-truc-he-thong/hientai.jpg>)
 
 The main request path is **User → CloudFront → Application Load Balancer → EC2 Spring Boot → RDS for MySQL**. The backend stores CVs in S3, retrieves deployment artifacts from a separate S3 bucket, and publishes operational data to CloudWatch and SNS.
 

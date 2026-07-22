@@ -1,4 +1,4 @@
----
+﻿---
 title: "Configure a NAT Gateway for the Private Subnet"
 date: 2026-07-10
 weight: 4
@@ -19,5 +19,5 @@ A NAT Gateway incurs hourly and data-processing charges. One NAT Gateway is suff
 
 Verify that the NAT Gateway is in a public subnet, has an Elastic IP, and is `Available`.
 
-![Cấu hình NAT Gateway](</images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.4-Cau-hinh-NAT-Gateway-cho-Private-Subnet/NAT.png>)
-![NAT Gateway hoạt động](</images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.4-Cau-hinh-NAT-Gateway-cho-Private-Subnet/nat%202.png>)
+![Cấu hình NAT Gateway](</Workshop-aws/images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.4-Cau-hinh-NAT-Gateway-cho-Private-Subnet/NAT.png>)
+![NAT Gateway hoạt động](</Workshop-aws/images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.4-Cau-hinh-NAT-Gateway-cho-Private-Subnet/nat%202.png>)

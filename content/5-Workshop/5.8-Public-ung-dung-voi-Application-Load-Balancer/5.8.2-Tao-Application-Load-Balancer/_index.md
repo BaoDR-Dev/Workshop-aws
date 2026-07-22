@@ -1,4 +1,4 @@
----
+﻿---
 title: "Create an Application Load Balancer"
 date: 2026-07-10
 weight: 2
@@ -15,6 +15,6 @@ pre: " <b> 5.8.2. </b> "
 
 Wait for the ALB to become `Active` and test its DNS name. ALB pricing includes hourly and LCU charges, so remove it when the workshop ends.
 
-![Security group for the ALB](</images/5-Workshop/5.8-Public-ung-dung-voi-Application-Load-Balancer/5.8.2-Tao-Application-Load-Balancer/sg%20cho%20alb.png>)
-![Bắt đầu tạo ALB](</images/5-Workshop/5.8-Public-ung-dung-voi-Application-Load-Balancer/5.8.2-Tao-Application-Load-Balancer/alb.png>)
-![Chọn network và subnet](</images/5-Workshop/5.8-Public-ung-dung-voi-Application-Load-Balancer/5.8.2-Tao-Application-Load-Balancer/alb%202.png>)
+![Security group for the ALB](</Workshop-aws/images/5-Workshop/5.8-Public-ung-dung-voi-Application-Load-Balancer/5.8.2-Tao-Application-Load-Balancer/sg%20cho%20alb.png>)
+![Bắt đầu tạo ALB](</Workshop-aws/images/5-Workshop/5.8-Public-ung-dung-voi-Application-Load-Balancer/5.8.2-Tao-Application-Load-Balancer/alb.png>)
+![Chọn network và subnet](</Workshop-aws/images/5-Workshop/5.8-Public-ung-dung-voi-Application-Load-Balancer/5.8.2-Tao-Application-Load-Balancer/alb%202.png>)

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Tạo S3 bucket lưu file deploy artifact"
 date: 2026-07-10
 weight: 2
@@ -12,9 +12,9 @@ pre: " <b> 5.7.2. </b> "
 2. Bật Block Public Access, Versioning và default encryption.
 3. Upload file JAR đã build vào key `releases/recruitbox-<version>.jar` thay vì ghi đè `latest.jar`.
 
-![Tạo artifact bucket](</images/5-Workshop/5.7-Luu-tru-file-voi-Amazon-S3/5.7.2-Tao-S3-bucket-luu-file-deploy-artifact/artifact%20s3.png>)
-![Cấu hình bucket](</images/5-Workshop/5.7-Luu-tru-file-voi-Amazon-S3/5.7.2-Tao-S3-bucket-luu-file-deploy-artifact/artifact%20s3%202.png>)
-![Upload artifact](</images/5-Workshop/5.7-Luu-tru-file-voi-Amazon-S3/5.7.2-Tao-S3-bucket-luu-file-deploy-artifact/artifact%20s3%203.png>)
+![Tạo artifact bucket](</Workshop-aws/images/5-Workshop/5.7-Luu-tru-file-voi-Amazon-S3/5.7.2-Tao-S3-bucket-luu-file-deploy-artifact/artifact%20s3.png>)
+![Cấu hình bucket](</Workshop-aws/images/5-Workshop/5.7-Luu-tru-file-voi-Amazon-S3/5.7.2-Tao-S3-bucket-luu-file-deploy-artifact/artifact%20s3%202.png>)
+![Upload artifact](</Workshop-aws/images/5-Workshop/5.7-Luu-tru-file-voi-Amazon-S3/5.7.2-Tao-S3-bucket-luu-file-deploy-artifact/artifact%20s3%203.png>)
 
 ## Xác minh
 

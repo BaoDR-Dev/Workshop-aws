@@ -1,4 +1,4 @@
----
+﻿---
 title: "Tạo SNS Topic gửi email cảnh báo"
 date: 2026-07-10
 weight: 1
@@ -14,7 +14,7 @@ Amazon Simple Notification Service (SNS) được sử dụng làm kênh nhận 
 
 Tại AWS Management Console, chọn Region **Asia Pacific (Singapore)** (`ap-southeast-1`), sau đó truy cập **Amazon SNS → Topics → Create topic**.
 
-![Tạo SNS Standard Topic](</images/5-Workshop/5.10-Monitoring-va-Alert/5.10.1-Tao-SNS-Topic-gui-email-canh-bao/create1.jpg>)
+![Tạo SNS Standard Topic](</Workshop-aws/images/5-Workshop/5.10-Monitoring-va-Alert/5.10.1-Tao-SNS-Topic-gui-email-canh-bao/create1.jpg>)
 
 Trong phần **Details**, cấu hình:
 
@@ -28,7 +28,7 @@ Các phần Encryption, Access policy, Delivery policy và Delivery status loggi
 
 Sau khi topic được tạo, mở topic `recruitpro-alert-topic`, chọn **Create subscription** và khai báo endpoint nhận cảnh báo.
 
-![Tạo Email Subscription cho SNS Topic](</images/5-Workshop/5.10-Monitoring-va-Alert/5.10.1-Tao-SNS-Topic-gui-email-canh-bao/create2.jpg>)
+![Tạo Email Subscription cho SNS Topic](</Workshop-aws/images/5-Workshop/5.10-Monitoring-va-Alert/5.10.1-Tao-SNS-Topic-gui-email-canh-bao/create2.jpg>)
 
 Cấu hình subscription như sau:
 
@@ -42,7 +42,7 @@ Không cần cấu hình **Subscription filter policy** hoặc **Redrive policy*
 
 SNS chưa gửi cảnh báo đến endpoint ngay sau khi tạo subscription. Người sở hữu email phải xác nhận đăng ký để tránh việc một địa chỉ bị thêm vào topic khi chưa đồng ý.
 
-![Email xác nhận đăng ký Amazon SNS](</images/5-Workshop/5.10-Monitoring-va-Alert/5.10.1-Tao-SNS-Topic-gui-email-canh-bao/cfmail.jpg>)
+![Email xác nhận đăng ký Amazon SNS](</Workshop-aws/images/5-Workshop/5.10-Monitoring-va-Alert/5.10.1-Tao-SNS-Topic-gui-email-canh-bao/cfmail.jpg>)
 
 Mở email có tiêu đề **AWS Notification - Subscription Confirmation** từ `no-reply@sns.amazonaws.com`, sau đó chọn liên kết **Confirm subscription**. Nếu không thấy email trong hộp thư đến, cần kiểm tra thêm thư mục Spam hoặc Thư rác như trong hình.
 
@@ -50,6 +50,6 @@ Mở email có tiêu đề **AWS Notification - Subscription Confirmation** từ
 
 Quay lại trang chi tiết topic `recruitpro-alert-topic` và mở thẻ **Subscriptions** để xác minh kết quả.
 
-![Email Subscription đã được xác nhận](</images/5-Workshop/5.10-Monitoring-va-Alert/5.10.1-Tao-SNS-Topic-gui-email-canh-bao/surbartion.jpg>)
+![Email Subscription đã được xác nhận](</Workshop-aws/images/5-Workshop/5.10-Monitoring-va-Alert/5.10.1-Tao-SNS-Topic-gui-email-canh-bao/surbartion.jpg>)
 
 Subscription trong hình sử dụng giao thức **EMAIL** và có trạng thái **Confirmed**. Trạng thái này xác nhận địa chỉ email đã đăng ký thành công và SNS có thể gửi thông báo đến endpoint. Topic này sẽ được chọn làm notification target khi cấu hình các CloudWatch Alarm ở những bước tiếp theo.

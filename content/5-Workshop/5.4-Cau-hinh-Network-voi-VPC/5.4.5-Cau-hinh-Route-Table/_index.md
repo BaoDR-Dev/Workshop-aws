@@ -1,4 +1,4 @@
----
+﻿---
 title: "Configure Route Tables"
 date: 2026-07-10
 weight: 5
@@ -17,11 +17,11 @@ pre: " <b> 5.4.5. </b> "
 - Private EC2 instances can download packages through the NAT Gateway but cannot receive direct Internet connections.
 - Database subnets have no route to an Internet Gateway or NAT Gateway.
 
-![Tạo route table](</images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.5-Cau-hinh-Route-Table/route%20table%201.png>)
-![Chọn VPC](</images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.5-Cau-hinh-Route-Table/route%20table%202.png>)
-![Mở tab Routes](</images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.5-Cau-hinh-Route-Table/route%20table%203.png>)
-![Thêm default route](</images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.5-Cau-hinh-Route-Table/route%20table%204.png>)
-![Chọn Internet Gateway](</images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.5-Cau-hinh-Route-Table/route%20table%205.png>)
-![Associate subnet](</images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.5-Cau-hinh-Route-Table/route%20table%206.png>)
-![Chọn private subnet](</images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.5-Cau-hinh-Route-Table/route%20table%207.png>)
-![Kiểm tra route table](</images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.5-Cau-hinh-Route-Table/route%20table%208.png>)
+![Tạo route table](</Workshop-aws/images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.5-Cau-hinh-Route-Table/route%20table%201.png>)
+![Chọn VPC](</Workshop-aws/images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.5-Cau-hinh-Route-Table/route%20table%202.png>)
+![Mở tab Routes](</Workshop-aws/images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.5-Cau-hinh-Route-Table/route%20table%203.png>)
+![Thêm default route](</Workshop-aws/images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.5-Cau-hinh-Route-Table/route%20table%204.png>)
+![Chọn Internet Gateway](</Workshop-aws/images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.5-Cau-hinh-Route-Table/route%20table%205.png>)
+![Associate subnet](</Workshop-aws/images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.5-Cau-hinh-Route-Table/route%20table%206.png>)
+![Chọn private subnet](</Workshop-aws/images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.5-Cau-hinh-Route-Table/route%20table%207.png>)
+![Kiểm tra route table](</Workshop-aws/images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.5-Cau-hinh-Route-Table/route%20table%208.png>)

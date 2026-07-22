@@ -1,4 +1,4 @@
----
+﻿---
 title: "Tạo Public Subnet và Private Subnet"
 date: 2026-07-10
 weight: 2
@@ -11,7 +11,7 @@ pre: " <b> 5.4.2. </b> "
 1. Vào **VPC → Subnets → Create subnet**, chọn `RecruitVPC`.
 2. Tạo subnet đầu tiên, chọn AZ `ap-southeast-1a`, nhập tên và CIDR không trùng nhau.
 
-![Tạo public subnet đầu tiên](</images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.2-Tao-Public-Subnet-va-Private-Subnet/public%20subnet%201.png>)
+![Tạo public subnet đầu tiên](</Workshop-aws/images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.2-Tao-Public-Subnet-va-Private-Subnet/public%20subnet%201.png>)
 
 3. Tạo đủ sáu subnet theo bảng:
 
@@ -24,7 +24,7 @@ pre: " <b> 5.4.2. </b> "
 | `private-db-1a` | 1a | `10.0.21.0/24` | RDS |
 | `private-db-1b` | 1b | `10.0.22.0/24` | RDS |
 
-![Danh sách subnet](</images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.2-Tao-Public-Subnet-va-Private-Subnet/tuong%20tu%20tao%20them%206%20subnet.png>)
+![Danh sách subnet](</Workshop-aws/images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.2-Tao-Public-Subnet-va-Private-Subnet/tuong%20tu%20tao%20them%206%20subnet.png>)
 
 4. Với hai public subnet, bật **Auto-assign public IPv4 address**. Không bật tùy chọn này cho private subnet.
 

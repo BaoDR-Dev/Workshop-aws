@@ -1,4 +1,4 @@
----
+﻿---
 title: "Configure the Security Group for RDS"
 date: 2026-07-10
 weight: 2
@@ -15,4 +15,4 @@ pre: " <b> 5.5.2. </b> "
 
 Validate that the backend EC2 instance can reach port 3306 while clients outside the VPC cannot connect to the RDS endpoint.
 
-![Security group allowing MySQL access only from EC2](</images/5-Workshop/5.5-Trien-khai-Database-voi-Amazon-RDS/5.5.2-Cau-hinh-Security-Group-cho-RDS/Screenshots-20260712221530.png>)
+![Security group allowing MySQL access only from EC2](</Workshop-aws/images/5-Workshop/5.5-Trien-khai-Database-voi-Amazon-RDS/5.5.2-Cau-hinh-Security-Group-cho-RDS/Screenshots-20260712221530.png>)

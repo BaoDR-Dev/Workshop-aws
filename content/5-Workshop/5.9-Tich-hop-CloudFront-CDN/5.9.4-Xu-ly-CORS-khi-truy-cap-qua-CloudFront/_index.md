@@ -1,4 +1,4 @@
----
+﻿---
 title: "Handle CORS through CloudFront"
 date: 2026-07-10
 weight: 4
@@ -17,4 +17,4 @@ Use the recommended origin settings and customize the cache behavior for a dynam
 
 This configuration prioritizes API correctness. Production should redirect HTTP to HTTPS and forward only the request values the backend actually needs.
 
-![Cấu hình CORS](</images/5-Workshop/5.9-Tich-hop-CloudFront-CDN/5.9.4-Xu-ly-CORS-khi-truy-cap-qua-CloudFront/cloudfront%204.png>)
+![Cấu hình CORS](</Workshop-aws/images/5-Workshop/5.9-Tich-hop-CloudFront-CDN/5.9.4-Xu-ly-CORS-khi-truy-cap-qua-CloudFront/cloudfront%204.png>)

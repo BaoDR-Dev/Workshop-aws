@@ -1,4 +1,4 @@
----
+﻿---
 title: "Create an S3 Bucket for CV Storage"
 date: 2026-07-10
 weight: 1
@@ -16,6 +16,6 @@ In **Permissions**, confirm that public access blocking is on. Upload a test fil
 
 Before deleting the bucket, remove every object and version.
 
-![Nhập tên bucket CV](</images/5-Workshop/5.7-Luu-tru-file-voi-Amazon-S3/5.7.1-Tao-S3-bucket-luu-tru-CV/cv%20storage%201.png>)
-![Cấu hình public access và versioning](</images/5-Workshop/5.7-Luu-tru-file-voi-Amazon-S3/5.7.1-Tao-S3-bucket-luu-tru-CV/cv%20storage%202.png>)
-![Bucket CV đã tạo](</images/5-Workshop/5.7-Luu-tru-file-voi-Amazon-S3/5.7.1-Tao-S3-bucket-luu-tru-CV/cv%20storage%203.png>)
+![Nhập tên bucket CV](</Workshop-aws/images/5-Workshop/5.7-Luu-tru-file-voi-Amazon-S3/5.7.1-Tao-S3-bucket-luu-tru-CV/cv%20storage%201.png>)
+![Cấu hình public access và versioning](</Workshop-aws/images/5-Workshop/5.7-Luu-tru-file-voi-Amazon-S3/5.7.1-Tao-S3-bucket-luu-tru-CV/cv%20storage%202.png>)
+![Bucket CV đã tạo](</Workshop-aws/images/5-Workshop/5.7-Luu-tru-file-voi-Amazon-S3/5.7.1-Tao-S3-bucket-luu-tru-CV/cv%20storage%203.png>)

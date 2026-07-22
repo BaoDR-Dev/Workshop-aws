@@ -1,4 +1,4 @@
----
+﻿---
 title: "Create a CloudFront Distribution"
 date: 2026-07-10
 weight: 1
@@ -12,4 +12,4 @@ Open **CloudFront → Distributions → Create distribution**. In **Choose a pla
 
 The plan includes an allowance for requests and data transfer together with CDN, WAF, DDoS protection, DNS, TLS certificates, and tiered caching features. Higher-tier plans are unnecessary for the current RecruitBox workshop scope.
 
-![Tạo CloudFront Distribution](</images/5-Workshop/5.9-Tich-hop-CloudFront-CDN/5.9.1-Tao-CloudFront-Distribution/cloudfront.png>)
+![Tạo CloudFront Distribution](</Workshop-aws/images/5-Workshop/5.9-Tich-hop-CloudFront-CDN/5.9.1-Tao-CloudFront-Distribution/cloudfront.png>)

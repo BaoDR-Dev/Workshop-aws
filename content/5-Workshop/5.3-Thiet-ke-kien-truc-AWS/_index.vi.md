@@ -1,4 +1,4 @@
----
+﻿---
 title: "Thiết kế kiến trúc AWS"
 date: 2026-07-10
 weight: 3
@@ -8,7 +8,7 @@ pre: " <b> 5.3. </b> "
 
 ## Kiến trúc tổng thể
 
-![Kiến trúc AWS tổng thể của RecruitPro](</images/5-Workshop/5.3-Thiet-ke-kien-truc-AWS/5.3.1-Tong-quan-kien-truc-he-thong/hientai.jpg>)
+![Kiến trúc AWS tổng thể của RecruitPro](</Workshop-aws/images/5-Workshop/5.3-Thiet-ke-kien-truc-AWS/5.3.1-Tong-quan-kien-truc-he-thong/hientai.jpg>)
 
 Luồng request chính là **Người dùng → CloudFront → Application Load Balancer → EC2 Spring Boot → RDS MySQL**. Backend lưu CV trên S3, tải deployment artifact từ một S3 bucket riêng và gửi dữ liệu vận hành đến CloudWatch cùng SNS.
 

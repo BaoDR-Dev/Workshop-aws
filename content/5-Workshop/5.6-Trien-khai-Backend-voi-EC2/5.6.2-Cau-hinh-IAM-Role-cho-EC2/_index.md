@@ -1,4 +1,4 @@
----
+﻿---
 title: "Configure the IAM Role for EC2"
 date: 2026-07-10
 weight: 2
@@ -21,5 +21,5 @@ aws sts get-caller-identity
 
 The result must show an assumed role for `RecruitBoxEC2Role`. Never create or store IAM access keys on the instance.
 
-![Tạo IAM Role](</images/5-Workshop/5.6-Trien-khai-Backend-voi-EC2/5.6.2-Cau-hinh-IAM-Role-cho-EC2/role%20for%20ec2.png>)
-![Gắn role vào EC2](</images/5-Workshop/5.6-Trien-khai-Backend-voi-EC2/5.6.2-Cau-hinh-IAM-Role-cho-EC2/role%20for%20ec2%202.png>)
+![Tạo IAM Role](</Workshop-aws/images/5-Workshop/5.6-Trien-khai-Backend-voi-EC2/5.6.2-Cau-hinh-IAM-Role-cho-EC2/role%20for%20ec2.png>)
+![Gắn role vào EC2](</Workshop-aws/images/5-Workshop/5.6-Trien-khai-Backend-voi-EC2/5.6.2-Cau-hinh-IAM-Role-cho-EC2/role%20for%20ec2%202.png>)

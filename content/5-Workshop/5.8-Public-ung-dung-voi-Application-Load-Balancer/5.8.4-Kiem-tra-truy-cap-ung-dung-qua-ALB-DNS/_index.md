@@ -1,4 +1,4 @@
----
+﻿---
 title: "Test Application Access through the ALB DNS Name"
 date: 2026-07-10
 weight: 4
@@ -14,4 +14,4 @@ pre: " <b> 5.8.4. </b> "
 
 For HTTP 503, check target health. For a timeout, inspect route tables, NACLs, and the ALB-to-EC2 security-group chain.
 
-![Ứng dụng truy cập qua ALB](</images/5-Workshop/5.8-Public-ung-dung-voi-Application-Load-Balancer/5.8.4-Kiem-tra-truy-cap-ung-dung-qua-ALB-DNS/alb%205.png>)
+![Ứng dụng truy cập qua ALB](</Workshop-aws/images/5-Workshop/5.8-Public-ung-dung-voi-Application-Load-Balancer/5.8.4-Kiem-tra-truy-cap-ung-dung-qua-ALB-DNS/alb%205.png>)

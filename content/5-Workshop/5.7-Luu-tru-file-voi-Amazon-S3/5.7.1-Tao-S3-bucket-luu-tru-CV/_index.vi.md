@@ -1,4 +1,4 @@
----
+﻿---
 title: "Tạo S3 bucket lưu trữ CV"
 date: 2026-07-10
 weight: 1
@@ -12,9 +12,9 @@ pre: " <b> 5.7.1. </b> "
 2. Giữ **Block all public access**; bật Bucket Versioning và default encryption SSE-S3 hoặc SSE-KMS.
 3. Tạo bucket, sau đó tạo prefix `cv/`; cấu hình lifecycle chuyển/xóa phiên bản cũ theo chính sách lưu trữ.
 
-![Nhập tên bucket CV](</images/5-Workshop/5.7-Luu-tru-file-voi-Amazon-S3/5.7.1-Tao-S3-bucket-luu-tru-CV/cv%20storage%201.png>)
-![Cấu hình public access và versioning](</images/5-Workshop/5.7-Luu-tru-file-voi-Amazon-S3/5.7.1-Tao-S3-bucket-luu-tru-CV/cv%20storage%202.png>)
-![Bucket CV đã tạo](</images/5-Workshop/5.7-Luu-tru-file-voi-Amazon-S3/5.7.1-Tao-S3-bucket-luu-tru-CV/cv%20storage%203.png>)
+![Nhập tên bucket CV](</Workshop-aws/images/5-Workshop/5.7-Luu-tru-file-voi-Amazon-S3/5.7.1-Tao-S3-bucket-luu-tru-CV/cv%20storage%201.png>)
+![Cấu hình public access và versioning](</Workshop-aws/images/5-Workshop/5.7-Luu-tru-file-voi-Amazon-S3/5.7.1-Tao-S3-bucket-luu-tru-CV/cv%20storage%202.png>)
+![Bucket CV đã tạo](</Workshop-aws/images/5-Workshop/5.7-Luu-tru-file-voi-Amazon-S3/5.7.1-Tao-S3-bucket-luu-tru-CV/cv%20storage%203.png>)
 
 ## Xác minh và bảo mật
 

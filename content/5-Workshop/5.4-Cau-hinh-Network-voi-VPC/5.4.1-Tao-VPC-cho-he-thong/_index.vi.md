@@ -20,7 +20,7 @@ Tạo VPC riêng cho RecruitBox tại Region **Asia Pacific (Singapore) – ap-s
 
 4. Mở VPC vừa tạo, bật **DNS resolution** và **DNS hostnames** trong **Actions → Edit VPC settings**.
 
-![Kiểm tra VPC đã tạo](</images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.1-Tao-VPC-cho-he-thong/vpc2.png>)
+![Kiểm tra VPC đã tạo](</Workshop-aws/images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.1-Tao-VPC-cho-he-thong/vpc2.png>)
 
 ## Xác minh
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Configure Cache Behavior for the Dynamic Application"
 date: 2026-07-10
 weight: 3
@@ -12,4 +12,4 @@ In **Specify origin**, select **Elastic Load Balancer** and choose the RecruitBo
 
 CloudFront will receive viewer requests and forward them to the ALB, which distributes them to the backend target group.
 
-![Cấu hình cache behavior](</images/5-Workshop/5.9-Tich-hop-CloudFront-CDN/5.9.3-Cau-hinh-Cache-Behavior-cho-ung-dung-dong/cloudfront%203.png>)
+![Cấu hình cache behavior](</Workshop-aws/images/5-Workshop/5.9-Tich-hop-CloudFront-CDN/5.9.3-Cau-hinh-Cache-Behavior-cho-ung-dung-dong/cloudfront%203.png>)

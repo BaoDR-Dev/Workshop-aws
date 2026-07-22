@@ -1,4 +1,4 @@
----
+﻿---
 title: "Create an Alarm for Unhealthy ALB Targets"
 date: 2026-07-10
 weight: 4
@@ -14,7 +14,7 @@ This CloudWatch alarm monitors the number of targets that fail health checks in 
 
 Open **CloudWatch → Alarms → All alarms → Create alarm → Select metric**. Navigate to **ApplicationELB → Per AppELB, per TG Metrics**, search for `UnHealthyHostCount`, and select the correct `recruit-alb` and `recruit-tg` Target Group pair.
 
-![Select the UnHealthyHostCount metric for the ALB and Target Group](</images/5-Workshop/5.10-Monitoring-va-Alert/5.10.4-Tao-CloudWatch-Alarm-cho-ALB-Unhealthy-Target/chon-metric-unhealthy-host.jpg>)
+![Select the UnHealthyHostCount metric for the ALB and Target Group](</Workshop-aws/images/5-Workshop/5.10-Monitoring-va-Alert/5.10.4-Tao-CloudWatch-Alarm-cho-ALB-Unhealthy-Target/chon-metric-unhealthy-host.jpg>)
 
 This metric represents the number of targets that the ALB considers unhealthy. The graph currently shows 0, indicating that the targets are passing their health checks. Choose **Select metric** to continue.
 
@@ -29,7 +29,7 @@ Configure the metric and condition as follows:
 - **Threshold type:** `Static`.
 - **Condition:** `Greater/Equal` with a threshold of `1`.
 
-![Configure the UnHealthyHostCount threshold](</images/5-Workshop/5.10-Monitoring-va-Alert/5.10.4-Tao-CloudWatch-Alarm-cho-ALB-Unhealthy-Target/cau-hinh-nguong-unhealthy-host.jpg>)
+![Configure the UnHealthyHostCount threshold](</Workshop-aws/images/5-Workshop/5.10-Monitoring-va-Alert/5.10.4-Tao-CloudWatch-Alarm-cho-ALB-Unhealthy-Target/cau-hinh-nguong-unhealthy-host.jpg>)
 
 The condition is met when the average unhealthy target count is at least one during a one-minute period. This short period detects backend failures quickly. In production, requiring multiple consecutive datapoints can reduce alerts caused by brief target restarts.
 
@@ -37,7 +37,7 @@ The condition is met when the average unhealthy target count is at least one dur
 
 On **Configure actions**, select **In alarm**, then choose **Select an existing SNS topic** and select `recruitpro-alert-topic`.
 
-![Select the SNS topic for unhealthy target notifications](</images/5-Workshop/5.10-Monitoring-va-Alert/5.10.4-Tao-CloudWatch-Alarm-cho-ALB-Unhealthy-Target/chon-sns-topic.jpg>)
+![Select the SNS topic for unhealthy target notifications](</Workshop-aws/images/5-Workshop/5.10-Monitoring-va-Alert/5.10.4-Tao-CloudWatch-Alarm-cho-ALB-Unhealthy-Target/chon-sns-topic.jpg>)
 
 The email endpoint shown below confirms that the topic has a recipient. When the alarm enters **In alarm**, CloudWatch publishes an event to SNS, which forwards the notification by email. No other actions are required for this workshop.
 
@@ -45,7 +45,7 @@ The email endpoint shown below confirms that the topic has a recipient. When the
 
 In **Add alarm details**, enter `RecruitPro-ALB-Unhealthy-Target`.
 
-![Name the unhealthy ALB target alarm](</images/5-Workshop/5.10-Monitoring-va-Alert/5.10.4-Tao-CloudWatch-Alarm-cho-ALB-Unhealthy-Target/dat-ten-alarm.jpg>)
+![Name the unhealthy ALB target alarm](</Workshop-aws/images/5-Workshop/5.10-Monitoring-va-Alert/5.10.4-Tao-CloudWatch-Alarm-cho-ALB-Unhealthy-Target/dat-ten-alarm.jpg>)
 
 The name identifies the system, monitored resource, and alarm condition. In production, a description or tags can record the Target Group, environment, and responsible team.
 
@@ -53,6 +53,6 @@ The name identifies the system, monitored resource, and alarm condition. In prod
 
 On **Preview and create**, verify the complete configuration before choosing **Create alarm**.
 
-![Review and create the unhealthy ALB target alarm](</images/5-Workshop/5.10-Monitoring-va-Alert/5.10.4-Tao-CloudWatch-Alarm-cho-ALB-Unhealthy-Target/xem-lai-va-tao-alarm.jpg>)
+![Review and create the unhealthy ALB target alarm](</Workshop-aws/images/5-Workshop/5.10-Monitoring-va-Alert/5.10.4-Tao-CloudWatch-Alarm-cho-ALB-Unhealthy-Target/xem-lai-va-tao-alarm.jpg>)
 
 The Review page confirms the `UnHealthyHostCount` metric, `Average` statistic, one-minute period, threshold greater than or equal to 1, and notification to `recruitpro-alert-topic`. The alarm may initially show **Insufficient data**, then change to **OK** when all targets are healthy or **In alarm** when a target fails its health check.

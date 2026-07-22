@@ -1,4 +1,4 @@
----
+﻿---
 title: "Cấu hình Cache Behavior cho ứng dụng động"
 date: 2026-07-10
 weight: 4
@@ -10,7 +10,7 @@ pre: " <b> 5.9.4. </b> "
 
 Trong phần **Settings**, giữ **Use recommended origin settings** và chọn **Customize cache settings** để cấu hình phù hợp với ứng dụng web động.
 
-![Cấu hình cache behavior cho RecruitBox](</images/5-Workshop/5.9-Tich-hop-CloudFront-CDN/5.9.4-Xu-ly-CORS-khi-truy-cap-qua-CloudFront/cloudfront%204.png>)
+![Cấu hình cache behavior cho RecruitBox](</Workshop-aws/images/5-Workshop/5.9-Tich-hop-CloudFront-CDN/5.9.4-Xu-ly-CORS-khi-truy-cap-qua-CloudFront/cloudfront%204.png>)
 
 Hình cho thấy các thiết lập sau:
 
