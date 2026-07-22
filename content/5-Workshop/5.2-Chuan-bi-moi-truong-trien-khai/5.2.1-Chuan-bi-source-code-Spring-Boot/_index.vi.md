@@ -1,4 +1,4 @@
----
+﻿---
 title: "Chuẩn bị source code Spring Boot"
 date: 2026-07-10
 weight: 1
@@ -26,4 +26,4 @@ Trên Windows, chạy:
 
 4. Xác nhận quá trình build thành công và file JAR được tạo trong thư mục `target`. Artifact này sẽ được tải lên và triển khai trên EC2 backend ở bước sau.
 
-![Source code Spring Boot](/images/5-Workshop/5.2-Chuan-bi-moi-truong-trien-khai/5.2.1-Chuan-bi-source-code-Spring-Boot/source-code.jpg)
+![Source code Spring Boot](/Workshop-aws/images/5-Workshop/5.2-Chuan-bi-moi-truong-trien-khai/5.2.1-Chuan-bi-source-code-Spring-Boot/source-code.jpg)

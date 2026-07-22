@@ -1,4 +1,4 @@
----
+﻿---
 title: "Automating the 3D Production Pipeline with AWS VAMS and 4D Pipeline"
 date: 2026-07-10
 weight: 2
@@ -9,7 +9,7 @@ author: "AWS Physical AI Blog"
 
 Managing and moving 3D assets at scale is becoming one of the biggest operational challenges for businesses today. Creative teams typically design in DCC tools like Rhino, Blender, Maya, and VStitcher, while the product lifecycle lives in PLM systems and marketing distribution relies on DAM. The result is a fragmented workflow with too many manual handoff steps, fragile self-built infrastructure, and poor scalability.
 
-![3D asset workflow overview](/images/3-Blog/b2.1.png)
+![3D asset workflow overview](/Workshop-aws/images/3-Blog/b2.1.png)
 
 ## Why does AWS VAMS matter?
 
@@ -21,7 +21,7 @@ The platform is also built on AWS CDK, making the deployment environment reusabl
 
 A proof of concept deployed by 4D Pipeline for the fashion industry shows how a heavy manual workflow can be automated with a single action:
 
-![Automated pipeline from design to sales](/images/3-Blog/b2.2.png)
+![Automated pipeline from design to sales](/Workshop-aws/images/3-Blog/b2.2.png)
 
 ### 1. Design in VStitcher
 
@@ -46,7 +46,7 @@ The final outputs are pushed directly to the storefront and review environment. 
 - Shortens time-to-market from days to just minutes in some workflows.
 - Applicable across industries including fashion, automotive, retail, furniture, and architecture.
 
-![Production-ready 3D delivery experience](/images/3-Blog/b2.3.png)
+![Production-ready 3D delivery experience](/Workshop-aws/images/3-Blog/b2.3.png)
 
 ## Conclusion
 

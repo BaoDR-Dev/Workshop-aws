@@ -1,4 +1,4 @@
----
+﻿---
 title: "Hướng phát triển trong tương lai"
 date: 2026-07-10
 weight: 3
@@ -12,7 +12,7 @@ pre: " <b> 5.12.3. </b> "
 
 Sau khi hoàn thiện phiên bản hiện tại, RecruitPro có thể được mở rộng theo kiến trúc bên dưới để tăng tính sẵn sàng, khả năng mở rộng, bảo mật và mức độ tự động hóa.
 
-![Kiến trúc AWS đề xuất cho RecruitPro trong tương lai](/images/5-Workshop/5.12-Tong-ket-va-don-dep-tai-nguyen/5.12.3-Huong-phat-trien-trong-tuong-lai/future.jpg)
+![Kiến trúc AWS đề xuất cho RecruitPro trong tương lai](/Workshop-aws/images/5-Workshop/5.12-Tong-ket-va-don-dep-tai-nguyen/5.12.3-Huong-phat-trien-trong-tuong-lai/future.jpg)
 
 *Hình 5.12.3: Kiến trúc đề xuất cho giai đoạn phát triển tiếp theo của RecruitPro.*
 

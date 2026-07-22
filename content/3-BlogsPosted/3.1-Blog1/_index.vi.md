@@ -1,4 +1,4 @@
----
+﻿---
 title: "Hướng dẫn chuyển đổi từ Amazon EC2 sang EKS Auto Mode với Kiro CLI và MCP Servers"
 date: 2026-07-01
 weight: 1
@@ -10,7 +10,7 @@ author: "AWS Containers Blog"
 
 Trong quá trình chạy ứng dụng trên Amazon EC2, bạn có thể đã gặp phải những bài toán như: cập nhật AMI, quản lý Auto Scaling Group, và tối ưu chi phí. EKS Auto Mode giúp giải phóng bạn khỏi các nhiệm vụ đó bằng cách tự động hóa vòng đời node, mở rộng tài nguyên và cấu hình hạ tầng.
 
-![Kiến trúc chuyển đổi sang EKS Auto Mode](/images/3-Blog/b1.1.png)
+![Kiến trúc chuyển đổi sang EKS Auto Mode](/Workshop-aws/images/3-Blog/b1.1.png)
 
 ## Tại sao là EKS Auto Mode?
 
@@ -27,9 +27,9 @@ Kết quả là bạn có thể chạy Kubernetes mà không cần quản lý tr
 
 Kiro CLI là trợ lý di chuyển thông minh, còn MCP Servers cung cấp lớp xác thực và hội nhập công cụ. Cả hai phối hợp để tự động hóa luồng di chuyển và giảm thiểu sai sót thủ công.
 
-<!-- ![Luồng xác thực Kiro CLI và MCP](/images/3-Blog/b1.2.png) -->
+<!-- ![Luồng xác thực Kiro CLI và MCP](/Workshop-aws/images/3-Blog/b1.2.png) -->
 
-![Các bước xác thực và triển khai cuối cùng](/images/3-Blog/b1.3.png)
+![Các bước xác thực và triển khai cuối cùng](/Workshop-aws/images/3-Blog/b1.3.png)
 
 Hình này tóm tắt các bước xác thực và triển khai cuối cùng trong quy trình di chuyển từ EC2 sang EKS Auto Mode, bao gồm kiểm tra container, chính sách và chuyển traffic.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Future development"
 date: 2026-07-10
 weight: 3
@@ -12,7 +12,7 @@ pre: " <b> 5.12.3. </b> "
 
 After completing the current version, RecruitPro can evolve toward the following architecture to improve availability, scalability, security, and deployment automation.
 
-![Proposed future AWS architecture for RecruitPro](/images/5-Workshop/5.12-Tong-ket-va-don-dep-tai-nguyen/5.12.3-Huong-phat-trien-trong-tuong-lai/future.jpg)
+![Proposed future AWS architecture for RecruitPro](/Workshop-aws/images/5-Workshop/5.12-Tong-ket-va-don-dep-tai-nguyen/5.12.3-Huong-phat-trien-trong-tuong-lai/future.jpg)
 
 *Figure 5.12.3: Proposed architecture for the next development phase of RecruitPro.*
 

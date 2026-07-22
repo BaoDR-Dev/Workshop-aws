@@ -1,4 +1,4 @@
----
+﻿---
 title: "Prepare the Spring Boot Source Code"
 date: 2026-07-10
 weight: 1
@@ -26,4 +26,4 @@ On Windows, run:
 
 4. Confirm that the build completes successfully and that the JAR file is created in the `target` directory. This artifact will be uploaded and deployed to the backend EC2 instance in a later step.
 
-![Source code Spring Boot](/images/5-Workshop/5.2-Chuan-bi-moi-truong-trien-khai/5.2.1-Chuan-bi-source-code-Spring-Boot/source-code.jpg)
+![Source code Spring Boot](/Workshop-aws/images/5-Workshop/5.2-Chuan-bi-moi-truong-trien-khai/5.2.1-Chuan-bi-source-code-Spring-Boot/source-code.jpg)

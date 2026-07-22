@@ -1,4 +1,4 @@
----
+﻿---
 title: "Prepare the AWS Account and Deployment Region"
 date: 2026-07-10
 weight: 3
@@ -18,4 +18,4 @@ Use an AWS account with permission to create the VPC, EC2, RDS, S3, Elastic Load
 
 CloudFront and IAM are global services, while resources such as VPC, EC2, RDS, ALB, and most S3 configuration are created or managed with Region-specific context.
 
-![user region](/images/5-Workshop/5.2-Chuan-bi-moi-truong-trien-khai/5.2.3-Chuan-bi-tai-khoan-AWS-va-region-trien-khai/user%20region.png)
+![user region](/Workshop-aws/images/5-Workshop/5.2-Chuan-bi-moi-truong-trien-khai/5.2.3-Chuan-bi-tai-khoan-AWS-va-region-trien-khai/user%20region.png)

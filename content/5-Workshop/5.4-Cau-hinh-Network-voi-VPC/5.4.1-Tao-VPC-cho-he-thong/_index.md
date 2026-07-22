@@ -1,4 +1,4 @@
----
+﻿---
 title: "Create the System VPC"
 date: 2026-07-10
 weight: 1
@@ -23,5 +23,5 @@ Create a dedicated VPC for RecruitBox in **Asia Pacific (Singapore) — `ap-sout
 
 Confirm that the VPC uses CIDR `10.0.0.0/16`, is `Available`, and has both DNS options enabled.
 
-![Nhập thông tin VPC](/images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.1-Tao-VPC-cho-he-thong/vpc1.png)
+![Nhập thông tin VPC](/Workshop-aws/images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.1-Tao-VPC-cho-he-thong/vpc1.png)
 ![Kiểm tra VPC đã tạo](</images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.1-Tao-VPC-cho-he-thong/vpc2.png>)

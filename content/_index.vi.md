@@ -1,4 +1,4 @@
----
+﻿---
 title: "Báo cáo thực tập"
 date: 2024-01-01
 weight: 1
@@ -27,7 +27,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 17/04/2026 đến ngày 30/07/2026
 
-<img src="/images/avatar.jpg" alt="Ảnh sự kiện 3" width="70%" style="border-radius:6px;">
+<img src="/Workshop-aws/images/avatar.jpg" alt="Ảnh sự kiện 3" width="70%" style="border-radius:6px;">
 
 
 

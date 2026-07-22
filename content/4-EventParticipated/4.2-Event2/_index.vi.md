@@ -1,4 +1,4 @@
----
+﻿---
 title: "Event 04/07/2026 - FCAJ Community Day"
 date: 2024-01-01
 weight: 2
@@ -76,12 +76,12 @@ Tham gia buổi hội thảo mang lại cho tôi những trải nghiệm vô cù
 - **Hình 2**: Khách mời và các bạn trẻ tham gia thảo luận nhóm, giải đáp thắc mắc về lộ trình chuyển đổi số và kiến trúc đám mây.
 
 <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap:12px; align-items:start;">
-  <img src="/images/4-Event/4.2%20(1).jpg" alt="Ảnh sự kiện 1" width="100%" style="border-radius:6px;">
-  <img src="/images/4-Event/4.2%20(2).jpg" alt="Ảnh sự kiện 2" width="100%" style="border-radius:6px;">
-  <img src="/images/4-Event/4.2%20(3).jpg" alt="Ảnh sự kiện 3" width="100%" style="border-radius:6px;">
-  <!-- <img src="/images/4-Event/4.2%20(4).jpg" alt="Ảnh sự kiện 4" width="100%" style="border-radius:6px;"> -->
-  <img src="/images/4-Event/4.2%20(5).jpg" alt="Ảnh sự kiện 5" width="100%" style="border-radius:6px;">
-  <!-- <img src="/images/4-Event/4.2%20(6).jpg" alt="Ảnh sự kiện 6" width="100%" style="border-radius:6px;"> -->
+  <img src="/Workshop-aws/images/4-Event/4.2%20(1).jpg" alt="Ảnh sự kiện 1" width="100%" style="border-radius:6px;">
+  <img src="/Workshop-aws/images/4-Event/4.2%20(2).jpg" alt="Ảnh sự kiện 2" width="100%" style="border-radius:6px;">
+  <img src="/Workshop-aws/images/4-Event/4.2%20(3).jpg" alt="Ảnh sự kiện 3" width="100%" style="border-radius:6px;">
+  <!-- <img src="/Workshop-aws/images/4-Event/4.2%20(4).jpg" alt="Ảnh sự kiện 4" width="100%" style="border-radius:6px;"> -->
+  <img src="/Workshop-aws/images/4-Event/4.2%20(5).jpg" alt="Ảnh sự kiện 5" width="100%" style="border-radius:6px;">
+  <!-- <img src="/Workshop-aws/images/4-Event/4.2%20(6).jpg" alt="Ảnh sự kiện 6" width="100%" style="border-radius:6px;"> -->
 </div>
 
 ### Tổng Thể

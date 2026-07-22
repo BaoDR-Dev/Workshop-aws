@@ -1,4 +1,4 @@
----
+﻿---
 title: "Tạo VPC cho hệ thống"
 date: 2026-07-10
 weight: 1
@@ -16,7 +16,7 @@ Tạo VPC riêng cho RecruitBox tại Region **Asia Pacific (Singapore) – ap-s
 2. Chọn **VPC only**, nhập `RecruitVPC`, IPv4 CIDR `10.0.0.0/16`, tenancy `Default`.
 3. Chọn **Create VPC** và chờ trạng thái `Available`.
 
-![Nhập thông tin VPC](/images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.1-Tao-VPC-cho-he-thong/vpc1.png)
+![Nhập thông tin VPC](/Workshop-aws/images/5-Workshop/5.4-Cau-hinh-Network-voi-VPC/5.4.1-Tao-VPC-cho-he-thong/vpc1.png)
 
 4. Mở VPC vừa tạo, bật **DNS resolution** và **DNS hostnames** trong **Actions → Edit VPC settings**.
 

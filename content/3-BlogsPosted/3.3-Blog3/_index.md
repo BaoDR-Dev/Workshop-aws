@@ -1,4 +1,4 @@
----
+﻿---
 title: "AWS Launches Partner Agent Factory to Drive Enterprise AI Agents"
 date: 2026-07-10
 weight: 3
@@ -9,7 +9,7 @@ author: "AWS APN Blog"
 
 On November 4, 2025, AWS announced the Partner Agent Factory (PAF) program under the AWS Generative AI Innovation Center (GenAIIC). The program is designed to help AWS partners build and validate AI Agents that are ready to deploy in real enterprise environments.
 
-![AWS Partner Agent Factory overview](/images/3-Blog/b3.1.png)
+![AWS Partner Agent Factory overview](/Workshop-aws/images/3-Blog/b3.1.png)
 
 ## What is Partner Agent Factory?
 

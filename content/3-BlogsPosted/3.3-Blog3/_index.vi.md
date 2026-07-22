@@ -1,4 +1,4 @@
----
+﻿---
 title: "AWS ra mắt Partner Agent Factory để thúc đẩy AI Agent cho doanh nghiệp"
 date: 2026-07-10
 weight: 3
@@ -9,7 +9,7 @@ author: "AWS APN Blog"
 
 Ngày 04/11/2025, AWS đã công bố chương trình Partner Agent Factory (PAF) thuộc AWS Generative AI Innovation Center (GenAIIC). Chương trình này nhằm giúp các đối tác của AWS xây dựng và kiểm chứng các AI Agent sẵn sàng triển khai trong môi trường doanh nghiệp thực tế.
 
-![Tổng quan AWS Partner Agent Factory](/images/3-Blog/b3.1.png)
+![Tổng quan AWS Partner Agent Factory](/Workshop-aws/images/3-Blog/b3.1.png)
 
 ## Partner Agent Factory là gì?
 

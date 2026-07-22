@@ -1,4 +1,4 @@
----
+﻿---
 title: "Chuẩn bị tài khoản AWS và Region triển khai"
 date: 2026-07-10
 weight: 3
@@ -18,4 +18,4 @@ Sử dụng tài khoản AWS có quyền tạo các tài nguyên VPC, EC2, RDS, 
 
 CloudFront và IAM là dịch vụ global; VPC, EC2, RDS, ALB và phần lớn cấu hình S3 được tạo hoặc quản lý theo Region.
 
-![Region của tài khoản AWS](/images/5-Workshop/5.2-Chuan-bi-moi-truong-trien-khai/5.2.3-Chuan-bi-tai-khoan-AWS-va-region-trien-khai/user%20region.png)
+![Region của tài khoản AWS](/Workshop-aws/images/5-Workshop/5.2-Chuan-bi-moi-truong-trien-khai/5.2.3-Chuan-bi-tai-khoan-AWS-va-region-trien-khai/user%20region.png)

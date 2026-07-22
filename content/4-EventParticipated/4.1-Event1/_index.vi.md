@@ -1,4 +1,4 @@
----
+﻿---
 title: "Event 13/06/2026 - FCAJ Community Day"
 date: 2024-01-01
 weight: 1
@@ -70,11 +70,11 @@ Tham gia các chuỗi sự kiện và workshop của cộng đồng AWS mang l�
 #### Một số hình ảnh khi tham gia sự kiện
 
 <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap:12px; align-items:start;">
-  <img src="/images/4-Event/4.1.1.jpg" alt="Ảnh sự kiện 1" width="100%" style="border-radius:6px;">
-  <img src="/images/4-Event/4.1.2.jpg" alt="Ảnh sự kiện 2" width="100%" style="border-radius:6px;">
-  <img src="/images/4-Event/4.1.3.jpg" alt="Ảnh sự kiện 3" width="100%" style="border-radius:6px;">
-  <img src="/images/4-Event/4.1.4.jpg" alt="Ảnh sự kiện 4" width="100%" style="border-radius:6px;">
-  <img src="/images/4-Event/4.1.5.jpg" alt="Ảnh sự kiện 5" width="100%" style="border-radius:6px;">
+  <img src="/Workshop-aws/images/4-Event/4.1.1.jpg" alt="Ảnh sự kiện 1" width="100%" style="border-radius:6px;">
+  <img src="/Workshop-aws/images/4-Event/4.1.2.jpg" alt="Ảnh sự kiện 2" width="100%" style="border-radius:6px;">
+  <img src="/Workshop-aws/images/4-Event/4.1.3.jpg" alt="Ảnh sự kiện 3" width="100%" style="border-radius:6px;">
+  <img src="/Workshop-aws/images/4-Event/4.1.4.jpg" alt="Ảnh sự kiện 4" width="100%" style="border-radius:6px;">
+  <img src="/Workshop-aws/images/4-Event/4.1.5.jpg" alt="Ảnh sự kiện 5" width="100%" style="border-radius:6px;">
 </div>
 
 > **Tổng thể:** Sự kiện không chỉ cung cấp những kiến thức kỹ thuật chuyên sâu về Cloud, DevOps hay Data mà còn truyền cảm hứng mạnh mẽ về tinh thần tự học, tư duy phát triển bản thân và cách hòa nhập vào môi trường công nghệ toàn cầu.

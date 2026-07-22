@@ -1,4 +1,4 @@
----
+﻿---
 title: "Tự động hóa pipeline 3D cho production với AWS VAMS và 4D Pipeline"
 date: 2026-07-10
 weight: 2
@@ -11,7 +11,7 @@ author: "AWS Physical AI Blog"
 
 Việc quản lý và luân chuyển tài nguyên 3D ở quy mô lớn đang trở thành một trong những thách thức vận hành lớn nhất của doanh nghiệp hiện nay. Các team sáng tạo thường thiết kế trên các công cụ DCC như Rhino, Blender, Maya và VStitcher, trong khi vòng đời sản phẩm lại nằm trong hệ thống PLM, còn phân phối marketing thì dựa vào DAM. Kết quả là một quy trình bị phân mảnh, có quá nhiều bước chuyển đổi thủ công, hạ tầng tự xây dựng dễ lỗi và khó mở rộng.
 
-![Tổng quan quy trình tài nguyên 3D](/images/3-Blog/b2.1.png)
+![Tổng quan quy trình tài nguyên 3D](/Workshop-aws/images/3-Blog/b2.1.png)
 
 ## Vì sao AWS VAMS lại quan trọng?
 
@@ -23,7 +23,7 @@ Nền tảng này cũng được xây dựng trên AWS CDK, giúp môi trường
 
 Một proof of concept do 4D Pipeline triển khai cho ngành thời trang cho thấy một quy trình nặng nhọc có thể được tự động hóa bằng một thao tác đơn giản:
 
-![Pipeline tự động từ thiết kế đến bán hàng](/images/3-Blog/b2.2.png)
+![Pipeline tự động từ thiết kế đến bán hàng](/Workshop-aws/images/3-Blog/b2.2.png)
 
 ### 1. Thiết kế trên VStitcher
 
@@ -48,7 +48,7 @@ Các đầu ra cuối cùng được đẩy trực tiếp tới storefront và m
 - Rút ngắn time-to-market từ nhiều ngày xuống chỉ vài phút trong một số quy trình.
 - Áp dụng mô hình này trong nhiều ngành như thời trang, ô tô, bán lẻ, nội thất và kiến trúc.
 
-![Trải nghiệm 3D delivery sẵn sàng cho production](/images/3-Blog/b2.3.png)
+![Trải nghiệm 3D delivery sẵn sàng cho production](/Workshop-aws/images/3-Blog/b2.3.png)
 
 ## Kết luận
 

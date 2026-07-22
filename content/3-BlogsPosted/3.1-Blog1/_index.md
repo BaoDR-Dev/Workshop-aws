@@ -1,4 +1,4 @@
----
+﻿---
 title: "Guide to Migrating from Amazon EC2 to EKS Auto Mode with Kiro CLI and MCP Servers"
 date: 2026-07-01
 weight: 1
@@ -9,7 +9,7 @@ author: "AWS Containers Blog"
 
 When running applications on Amazon EC2, you may have encountered challenges such as: updating AMIs, managing Auto Scaling Groups, and optimizing costs. EKS Auto Mode frees you from those tasks by automating node lifecycle, resource scaling, and infrastructure configuration.
 
-![Architecture for migrating to EKS Auto Mode](/images/3-Blog/b1.1.png)
+![Architecture for migrating to EKS Auto Mode](/Workshop-aws/images/3-Blog/b1.1.png)
 
 ## Why EKS Auto Mode?
 
@@ -26,9 +26,9 @@ The result is that you can run Kubernetes without directly managing an EC2 fleet
 
 Kiro CLI is an intelligent migration assistant, while MCP Servers provide a validation and tool integration layer. Together they automate the migration workflow and minimize manual errors.
 
-<!-- ![Kiro CLI and MCP validation flow](/images/3-Blog/b1.2.png) -->
+<!-- ![Kiro CLI and MCP validation flow](/Workshop-aws/images/3-Blog/b1.2.png) -->
 
-![Final validation and deployment steps](/images/3-Blog/b1.3.png)
+![Final validation and deployment steps](/Workshop-aws/images/3-Blog/b1.3.png)
 
 This diagram summarizes the final validation and deployment steps in the migration process from EC2 to EKS Auto Mode, including container checks, policy validation, and traffic cutover.
 

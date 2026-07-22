@@ -1,4 +1,4 @@
----
+﻿---
 title: "Event 04/07/2026 - FCAJ Community Day"
 date: 2024-01-01
 weight: 2
@@ -78,12 +78,12 @@ Attending this workshop gave me deeply meaningful and valuable experiences:
 - **Photo 2**: Guests and young participants engaged in group discussions, answering questions about digital transformation roadmaps and cloud architecture.
 
 <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap:12px; align-items:start;">
-  <img src="/images/4-Event/4.2%20(1).jpg" alt="Event photo 1" width="100%" style="border-radius:6px;">
-  <img src="/images/4-Event/4.2%20(2).jpg" alt="Event photo 2" width="100%" style="border-radius:6px;">
-  <img src="/images/4-Event/4.2%20(3).jpg" alt="Event photo 3" width="100%" style="border-radius:6px;">
-  <!-- <img src="/images/4-Event/4.2%20(4).jpg" alt="Event photo 4" width="100%" style="border-radius:6px;"> -->
-  <img src="/images/4-Event/4.2%20(5).jpg" alt="Event photo 5" width="100%" style="border-radius:6px;">
-  <!-- <img src="/images/4-Event/4.2%20(6).jpg" alt="Event photo 6" width="100%" style="border-radius:6px;"> -->
+  <img src="/Workshop-aws/images/4-Event/4.2%20(1).jpg" alt="Event photo 1" width="100%" style="border-radius:6px;">
+  <img src="/Workshop-aws/images/4-Event/4.2%20(2).jpg" alt="Event photo 2" width="100%" style="border-radius:6px;">
+  <img src="/Workshop-aws/images/4-Event/4.2%20(3).jpg" alt="Event photo 3" width="100%" style="border-radius:6px;">
+  <!-- <img src="/Workshop-aws/images/4-Event/4.2%20(4).jpg" alt="Event photo 4" width="100%" style="border-radius:6px;"> -->
+  <img src="/Workshop-aws/images/4-Event/4.2%20(5).jpg" alt="Event photo 5" width="100%" style="border-radius:6px;">
+  <!-- <img src="/Workshop-aws/images/4-Event/4.2%20(6).jpg" alt="Event photo 6" width="100%" style="border-radius:6px;"> -->
 </div>
 
 ### Overall

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Event 13/06/2026 - FCAJ Community Day"
 date: 2024-01-01
 weight: 1
@@ -71,11 +71,11 @@ Attending this AWS community event series gave me incredibly valuable experience
 #### Some photos from the event
 
 <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap:12px; align-items:start;">
-  <img src="/images/4-Event/4.1.1.jpg" alt="Event photo 1" width="100%" style="border-radius:6px;">
-  <img src="/images/4-Event/4.1.2.jpg" alt="Event photo 2" width="100%" style="border-radius:6px;">
-  <img src="/images/4-Event/4.1.3.jpg" alt="Event photo 3" width="100%" style="border-radius:6px;">
-  <img src="/images/4-Event/4.1.4.jpg" alt="Event photo 4" width="100%" style="border-radius:6px;">
-  <img src="/images/4-Event/4.1.5.jpg" alt="Event photo 5" width="100%" style="border-radius:6px;">
+  <img src="/Workshop-aws/images/4-Event/4.1.1.jpg" alt="Event photo 1" width="100%" style="border-radius:6px;">
+  <img src="/Workshop-aws/images/4-Event/4.1.2.jpg" alt="Event photo 2" width="100%" style="border-radius:6px;">
+  <img src="/Workshop-aws/images/4-Event/4.1.3.jpg" alt="Event photo 3" width="100%" style="border-radius:6px;">
+  <img src="/Workshop-aws/images/4-Event/4.1.4.jpg" alt="Event photo 4" width="100%" style="border-radius:6px;">
+  <img src="/Workshop-aws/images/4-Event/4.1.5.jpg" alt="Event photo 5" width="100%" style="border-radius:6px;">
 </div>
 
 > **Overall:** The event not only provided in-depth technical knowledge about Cloud, DevOps, and Data but also strongly inspired a spirit of self-learning, personal growth mindset, and how to integrate into the global tech environment.
