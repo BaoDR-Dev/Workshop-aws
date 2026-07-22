@@ -1,59 +1,22 @@
----
+﻿---
 title: "Worklog Tuần 8"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+### Các công việc tuần 8:
 
+| Nội dung công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- |
+| - Tìm hiểu nguyên lý hoạt động của Auto Scaling Group (ASG).<br>- Thực hành cấu hình và khởi tạo ASG để tự động điều chỉnh số lượng máy chủ theo tải. | 08/06/2026 | 08/06/2026 | [Tài liệu chương trình](https://000006.awsstudygroup.com/vi/1-introduction/) |
+| - Tìm hiểu các tính năng giám sát nâng cao với Amazon CloudWatch.<br>- Thiết lập các biểu đồ theo dõi hiệu năng hệ thống và cấu hình tạo cảnh báo (CloudWatch Alarms). | 08/09/2026 | 09/06/2026 | [Tài liệu chương trình](https://000008.awsstudygroup.com/vi/1-introduction/) |
+| - Tìm hiểu kiến trúc Serverless với dịch vụ AWS Lambda.<br>- Thực hành viết và triển khai hàm (function) chạy mã nguồn không cần quản lý máy chủ. | 11/06/2026 | 12/06/2026 | [Video](https://www.youtube.com/watch?v=7c4JOnZA-FM) |
 
-### Mục tiêu tuần 8:
+### Kết quả đạt được sau tuần làm việc:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
-
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 8:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+- **Tự động hóa mở rộng hệ thống**: Nắm vững kỹ năng thiết lập Auto Scaling Group giúp ứng dụng tự động tăng/giảm quy mô tài nguyên linh hoạt theo lưu lượng thực tế.
+- **Giám sát và vận hành thông minh**: Thành thạo việc sử dụng Amazon CloudWatch để theo dõi chỉ số hiệu năng và nhận cảnh báo sớm về trạng thái hệ thống.
+- **Tiếp cận mô hình Serverless**: Hiểu rõ lợi ích của AWS Lambda và biết cách vận hành các đoạn mã sự kiện mà không cần bận tâm về việc quản lý hạ tầng máy chủ bên dưới.
 
 

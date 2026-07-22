@@ -1,59 +1,25 @@
----
+﻿---
 title: "Worklog Tuần 5"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+### Các công việc tuần 5:
 
+| Nội dung công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- |
+| - Khởi tạo máy chủ ảo EC2 chạy hệ điều hành Windows.<br>- Cấu hình các thông số ban đầu và kết nối vào EC2 Windows. | 18/05/2026 | 18/05/2026 | [Tài liệu chương trình](https://000004.awsstudygroup.com/3-launchwindowsinstance/) |
+| - Khởi tạo máy chủ ảo EC2 chạy hệ điều hành Linux.<br>- Thực hiện các thao tác quản lý, cấu hình và kết nối SSH vào EC2 Linux. | 19/05/2026 | 19/05/2026 | [Tài liệu chương trình](https://000004.awsstudygroup.com/4-launchlinuxinstance/) |
+| - Tìm hiểu cơ chế hoạt động của EBS Snapshots.<br>- Thực hành tạo các bản chụp nhanh (snapshots) để sao lưu dữ liệu ổ cứng EBS. | 20/05/2026 | 20/05/2026 | [Tài liệu chương trình](https://000004.awsstudygroup.com/5-amazonec2basic/5.2-createec2snapshot/) |
+| - Tìm hiểu cách đóng gói và tạo Custom AMI từ instance hiện có.<br>- Sử dụng Custom AMI để triển khai nhanh các máy chủ có cùng cấu hình. | 21/05/2026 | 21/05/2026 | [Tài liệu chương trình](https://000004.awsstudygroup.com/5-amazonec2basic/5.4-launchec2ami/) |
+| - Thiết lập và quản lý quyền truy cập tài nguyên thông qua các chính sách IAM.<br>- Kiểm soát phân quyền người dùng đối với các dịch vụ Compute và Storage. | 22/05/2026 | 22/05/2026 | [Tài liệu chương trình](https://000048.awsstudygroup.com/) |
 
-### Mục tiêu tuần 5:
+### Kết quả đạt được sau tuần làm việc:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
-
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 5:
-
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+- **Quản trị máy chủ ảo đa hệ điều hành**: Thành thạo việc khởi tạo, cấu hình và quản lý cả hai dòng máy chủ ảo EC2 chạy hệ điều hành Windows và Linux trên AWS.
+- **Sao lưu và khôi phục dữ liệu**: Nắm vững quy trình tạo và quản lý EBS Snapshots để bảo vệ dữ liệu ổ cứng gắn ngoài trên EC2.
+- **Tối ưu hóa triển khai**: Biết cách tạo và sử dụng Custom AMI để nhân bản, triển khai nhanh các cấu hình máy chủ theo nhu cầu.
+- **Kiểm soát bảo mật và tài nguyên**: Áp dụng thành công các chính sách IAM để quản lý quyền hạn truy cập tài nguyên an toàn và hiệu quả.
 
 

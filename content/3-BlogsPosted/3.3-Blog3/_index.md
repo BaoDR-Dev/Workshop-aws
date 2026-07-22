@@ -1,31 +1,54 @@
 ---
-title: "Blog 3"
-date: 2024-01-01
-weight: 1
+title: "AWS Launches Partner Agent Factory to Drive Enterprise AI Agents"
+date: 2026-07-10
+weight: 3
 chapter: false
 pre: " <b> 3.3. </b> "
+author: "AWS APN Blog"
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-# SESSION POLICIES IN AMAZON EKS POD IDENTITY
+On November 4, 2025, AWS announced the Partner Agent Factory (PAF) program under the AWS Generative AI Innovation Center (GenAIIC). The program is designed to help AWS partners build and validate AI Agents that are ready to deploy in real enterprise environments.
 
-Amazon EKS Pod Identity has recently added the session policies feature, allowing you to narrow IAM permissions flexibly and precisely for each pod without needing to create many separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+![AWS Partner Agent Factory overview](/images/3-Blog/b3.1.png)
 
-Key points to know:
+## What is Partner Agent Factory?
 
-* A session policy is an inline IAM policy specified when creating or updating a Pod Identity association.
-* Effective permissions = intersection between the IAM role permissions and the session policy → the session policy can only narrow permissions, not expand them.
-* Helps avoid over-permissioning when reusing a single IAM role for multiple workloads with different needs.
-* Supports both same-account and cross-account (via IAM role chaining).
-* Significantly reduces the number of IAM roles that need to be managed, helping avoid hitting IAM quota limits in large clusters.
-* Easily configured through the AWS Management Console, AWS CLI, or AWS SDK when creating an association between a Kubernetes ServiceAccount and an IAM role.
+Simply put, PAF is a collaboration program between AWS and technology partners to jointly design, build, test, and refine AI Agents for real business scenarios. Rather than starting from scratch, partners receive direct guidance from AWS expert teams and can move from idea to deployment faster.
 
-This feature is especially useful when you have many applications running on the same IAM role but need different permission restrictions (for example: one pod only reads a specific S3 bucket, another pod only calls certain APIs).
+## Why does this program matter?
 
-...Image...
+PAF matters because it helps businesses shorten the time from experimentation to production. By combining AWS technical expertise with partner deployment experience, the program makes AI solutions more practical, more secure, and more reusable.
 
-...Link...
+## How the program works
 
-...Guide...
+Participation typically starts with the GenAIIC Bootcamp, followed by the PAF Academy. During this phase, teams work on solution design, technical validation, and go-to-market preparation. If the solution meets the required standards, it can be published on AWS Marketplace to reach a broader customer base.
+
+## Early AI Agent examples
+
+### 1. ETL Crew – OneByZero
+
+This agent helps modernize legacy ETL systems and migrate workflows to the cloud more efficiently. According to AWS, it can accelerate cloud data migration by around 50% while significantly reducing the amount of manual code required.
+
+### 2. Conversational Banking – CI&T
+
+This AI assistant supports banking customers through channels like WhatsApp. It can answer questions, assist customers, and operate 24/7 while meeting the security and compliance standards of financial institutions.
+
+### 3. QAIssist – Quantiphi
+
+This contact center solution uses AI to handle customer requests via voice or text, accesses real-time data, and only escalates to a human agent when necessary.
+
+### 4. Crayon refiNER
+
+This tool focuses on Named Entity Recognition (NER) and helps identify key entities in text data for downstream analytics and automation.
+
+## Why is this topic worth following for learners?
+
+For those studying AWS, cloud, or AI, Partner Agent Factory is a great example of AI moving from theory into production. It demonstrates that modern AI solutions are not just models — they are agents capable of solving real business problems.
+
+## Conclusion
+
+AWS is investing heavily in the Agentic AI trend. Through Partner Agent Factory, they are building a stronger ecosystem where AI Agents can move from idea to AWS Marketplace-ready solution faster and with greater reliability.
+
+Original post: https://aws.amazon.com/vi/blogs/apn/aws-generative-ai-innovation-center-launches-partner-agent-factory/
+
+FB Blog link: https://www.facebook.com/groups/awsstudygroupfcj/permalink/2208933749871585/

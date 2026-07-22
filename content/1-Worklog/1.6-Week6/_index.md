@@ -1,57 +1,24 @@
 ---
-title: "Week 6 Worklog"
+title: "Worklog Week 6"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+### Tasks for Week 6:
+
+| Task | Start Date | Completion Date | References |
+| --- | --- | --- | --- |
+| - Learn about and get familiar with the AWS Cloud9 integrated development environment.<br>- Install, configure, and practice basic commands with the AWS CLI. | 24/05/2026 | 24/05/2026 | [Program Documentation](https://000049.awsstudygroup.com/) |
+| - Learn about the Amazon S3 object storage service.<br>- Understand how to manage, upload objects, and configure S3 Static Website Hosting. | 25/05/2026 | 26/05/2026 | [Program Documentation](https://000057.awsstudygroup.com/1-introduce/) |
+| - Learn about the Amazon CloudFront content delivery network service.<br>- Combine CloudFront with S3 to optimize content delivery speed. | 27/05/2026 | 27/05/2026 | [Program Documentation](https://000057.awsstudygroup.com/7-cloudfront/) |
+| - Hands-on practice: Deploy a complete static website to AWS using S3. | 28/05/2026 | 28/05/2026 | [Program Documentation](https://000057.awsstudygroup.com/6-testwebsite/) |
+
+### Results achieved after the work week:
+
+- **CLI management tools and environment**: Proficient in using AWS Cloud9 as a cloud-based development environment and skilled in managing resources through the AWS CLI.
+- **Cloud storage and static website**: Gained a deep understanding of how Amazon S3 operates, learned how to upload files, configure permissions, and successfully publish a static website to the internet.
+- **Content optimization and delivery**: Understood how to use Amazon CloudFront to distribute content quickly, securely, and reduce the load on the origin server.
+- **Real-world deployment**: Completed the full end-to-end process of deploying a static web application to the AWS environment professionally and efficiently.
 
 
-### Week 6 Objectives:
-
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
-
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Week 6 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...

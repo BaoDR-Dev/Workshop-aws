@@ -5,40 +5,27 @@ weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
->Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud AI Journey, giúp team FCAJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau:
+Nhìn lại chặng thời gian đồng hành cùng chương trình, điều đọng lại trong tôi không chỉ là những kiến thức kỹ thuật khô khan hay các dòng cấu hình dịch vụ trên mây, mà là cảm giác biết ơn vì đã được chào đón và tạo mọi điều kiện tốt nhất để phát triển.
 
-### Đánh giá chung
+### Môi trường và con người
 
-**1. Môi trường làm việc**  
-Môi trường làm việc rất thân thiện và cởi mở. Các thành viên trong FCAJ luôn sẵn sàng hỗ trợ khi mình gặp khó khăn, kể cả ngoài giờ làm việc. Không gian làm việc gọn gàng, thoải mái, giúp mình tập trung tốt hơn. Tuy nhiên, mình nghĩ có thể bổ sung thêm một số buổi giao lưu hoặc team bonding để mọi người hiểu nhau hơn.
+Từ không gian làm việc thân thiện, sự dẫn dắt tận tâm và đầy kiên nhẫn của các anh chị mentor, cho đến sự hỗ trợ nhiệt tình từ team admin, tất cả đã giúp một đứa sinh viên mới ngày nào còn nhiều bỡ ngỡ nay đã tự tin hơn rất nhiều. Các anh chị không bao giờ áp đặt câu trả lời sẵn có mà luôn kiên nhẫn để tôi được tự tư duy, tự va vấp và tự tìm ra cách giải quyết vấn đề — điều mà hiếm khi sách vở ở trường có thể mang lại.
 
-**2. Sự hỗ trợ của mentor / team admin**  
-Mentor hướng dẫn rất chi tiết, giải thích rõ ràng khi mình chưa hiểu và luôn khuyến khích mình đặt câu hỏi. Team admin hỗ trợ các thủ tục, tài liệu và tạo điều kiện để mình làm việc thuận lợi. Mình đánh giá cao việc mentor cho phép mình thử và tự xử lý vấn đề thay vì chỉ đưa đáp án.
+Môi trường ở đây thực sự rất tích cực và ấm áp, mọi người làm việc hết mình nhưng cũng cực kỳ gắn kết, xem nhau như những người anh em trong nhà chứ không đơn thuần là đồng nghiệp hay thực tập sinh qua đường.
 
-**3. Sự phù hợp giữa công việc và chuyên ngành học**  
-Công việc mình được giao phù hợp với kiến thức mình đã học ở trường, đồng thời mở rộng thêm những mảng mới mà mình chưa từng được tiếp cận. Nhờ vậy, mình vừa củng cố kiến thức nền tảng, vừa học thêm kỹ năng thực tế.
+### Cơ chế và phúc lợi
 
-**4. Cơ hội học hỏi & phát triển kỹ năng**  
-Trong quá trình thực tập, mình học được nhiều kỹ năng mới như sử dụng công cụ quản lý dự án, kỹ năng làm việc nhóm, và cả cách giao tiếp chuyên nghiệp trong môi trường công ty. Mentor cũng chia sẻ nhiều kinh nghiệm thực tế giúp mình định hướng tốt hơn cho sự nghiệp.
+Về cơ chế hay phúc lợi, mọi thứ đều được hỗ trợ rất chu đáo và linh hoạt, giúp tôi dễ dàng cân đối giữa việc hoàn thành đồ án ở trường và tiến độ dự án thực tế.
 
-**5. Văn hóa & tinh thần đồng đội**  
-Văn hóa công ty rất tích cực: mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn vui vẻ. Khi có dự án gấp, mọi người cùng nhau cố gắng, hỗ trợ không phân biệt vị trí. Điều này giúp mình cảm thấy mình là một phần của tập thể, dù chỉ là thực tập sinh.
+### Đánh giá và đề xuất
 
-**6. Chính sách / phúc lợi cho thực tập sinh**  
-Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về thời gian linh hoạt khi cần thiết. Ngoài ra, việc được tham gia các buổi đào tạo nội bộ là một điểm cộng lớn.
+Nếu hỏi tôi có điểm gì cần phàn nàn hay đề xuất cải thiện không, thì thành thật mà nói, từ cơ sở vật chất, cách thức tổ chức cho đến sự quan tâm đến thực tập sinh đều đã vượt qua những kỳ vọng ban đầu của tôi rồi, nên hiện tại tôi hoàn toàn không có bất kỳ phàn nàn hay yêu cầu nào khác.
 
+### Lời khuyên cho các bạn sinh viên
 
-### Một số câu hỏi khác
-- Điều bạn **hài lòng nhất** trong thời gian thực tập?  
-- Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
-- Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
+Nếu có bạn bè hỏi thăm, chắc chắn tôi sẽ không ngần ngại giới thiệu và khuyên các bạn ấy nên tìm cơ hội thực tập tại đây — bởi vì đây chính là bệ phóng tuyệt vời nhất để rút ngắn khoảng cách từ ghế nhà trường bước ra làm nghề một cách vững chãi nhất.
 
+### Lời kết
 
-### Đề xuất & mong muốn
-- Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?  
-- Bạn có muốn tiếp tục chương trình này trong tương lai?
-- Góp ý khác (tự do chia sẻ):
+Tôi cũng rất mong muốn nếu có cơ hội trong tương lai, mình vẫn sẽ tiếp tục được đồng hành, gắn bó và cống hiến cho những chặng đường tiếp theo của chương trình. Chúc **FCAJ** sẽ ngày càng phát triển rực rỡ và tiếp tục chắp cánh cho nhiều thế hệ sinh viên tài năng hơn nữa.

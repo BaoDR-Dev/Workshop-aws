@@ -1,57 +1,21 @@
 ---
-title: "Week 7 Worklog"
+title: "Worklog Week 7"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+### Tasks for Week 7:
 
+| Task Description | Start Date | Completion Date | Reference |
+| --- | --- | --- | --- |
+| - Learn an overview of the Amazon RDS MySQL relational database service.<br>- Configure initial parameters for the RDS database. | 01/06/2026 | 01/06/2026 | [Program Documentation](https://000005.awsstudygroup.com/4-create-rds/) |
+| - Set up RDS Security Group to control network access to the database.<br>- Configure DB Subnet Group to partition the database across different Availability Zones within the VPC. | 02/06/2026 | 02/06/2026 | [Program Documentation](https://000005.awsstudygroup.com/2-prerequiste/3-create-db-sg/) |
+| - Establish a secure connection between the EC2 virtual server and the RDS database.<br>- Successfully perform connection, table creation, and sample data query operations. | 03/06/2026 | 04/06/2026 | [Program Documentation](https://000005.awsstudygroup.com/5-deploy-app/) |
 
-### Week 7 Objectives:
+### Achievements after the work week:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
-
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Week 7 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- **Relational database administration**: Mastered how to initialize and operate Amazon RDS MySQL on the AWS cloud platform.
+- **Database network security and partitioning**: Proficient in configuring RDS Security Group combined with DB Subnet Group to ensure security and high availability for the database system.
+- **Application connectivity and integration**: Successfully built a communication channel between the application server (EC2) and the database (RDS).
+- **Data manipulation skills**: Completed execution of SQL statements and data queries directly in the cloud environment.

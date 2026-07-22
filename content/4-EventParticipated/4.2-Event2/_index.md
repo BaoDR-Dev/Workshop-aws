@@ -1,126 +1,91 @@
 ---
-title: "Event 2"
+title: "Event 04/07/2026 - FCAJ Community Day"
 date: 2024-01-01
-weight: 1
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Workshop Summary: Career Orientation and the Reality of the Tech Industry with AWS
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- **Painting the full picture**: Clarifying the current state of the IT industry, macroeconomic shifts affecting the tech sector, and the major challenges young professionals face in the digital age.
+- **Multi-dimensional real-world perspectives**: Hearing firsthand from experts and engineers working directly at AWS Vietnam and major tech corporations, bridging the gap between classroom theory and real enterprise needs.
+- **Comprehensive skill building**: Guiding technical capability development roadmaps, soft skill training, professional conduct, and overcoming psychological barriers when entering an international work environment.
+- **Access to world-class resources**: Introducing and directing participation in programs like AWS First Cloud Journey to build a solid career foundation.
 
-### Speakers
+### Speakers & Guests
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Nguyễn Gia Hưng** – Head of Solution Architect Vietnam
+- **Khang Nguyễn** – Solution Architect
+- **Như Trần** – Account Manager
+- **Vinh Bành** – Cloud Engineer
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### 1. The State of IT, Tech Challenges, and the AWS First Cloud Journey Program
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+- **Current state of the IT industry**: The tech industry is entering a period of strong filtering and restructuring. The explosion of new technology trends demands not only solid technical skills but also flexible thinking, high adaptability, and continuous learning.
+- **AWS Vietnam and AWS First Cloud Journey**: The program is designed as a strategic launchpad, helping the community and students access world-class cloud resources, in-depth documentation, and real hands-on opportunities to confidently enter the global job market.
+- **Learning and conduct advice**: Speakers emphasized the importance of a progressive attitude, handling work pressure, teamwork culture in multinational corporations, and building a professional image through both words and daily conduct.
 
-#### Transitioning to modern application architecture – Microservices
+#### 2. DevOps Challenges and the Gap Between Academia and Industry
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+- **The realities of DevOps**: A DevOps engineer's role is not simply writing automation scripts or configuring tools. It also involves managing enormous pressure to maintain continuous stability, securing multi-layer systems, and optimizing operational costs for the business.
+- **The school vs. reality gap**: At university, students solve bounded problems with clear scenarios and specific answers. In the real enterprise world, the job demands urgent troubleshooting on large, complex systems, requiring sharp logical thinking and high stress tolerance.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+#### 3. Overcoming Fear in a Tech Environment
 
-#### Domain-Driven Design (DDD)
+- **Identifying fears**: Common psychological anxieties for young graduates or career changers include imposter syndrome, fear of lacking foundational knowledge, fear of communicating with superiors, or fear of making mistakes in front of major clients and partners.
+- **How to overcome**: Practical steps to turn pressure into growth motivation, how to proactively turn mistakes into valuable lessons, and strategies for building confidence through thorough preparation, improving communication skills, and actively seeking mentorship from those who came before.
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+#### 4. Lessons from the Transition from Campus to the Real World
 
-#### Event-Driven Architecture
-
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+- **Real-world experience**: The initial stumbles and lessons learned when applying academic knowledge to deploying real Cloud projects in enterprise settings.
+- **Advice for students**: Be proactive in hands-on practice through personal and group projects, be willing to try new technologies, build self-learning habits, and develop problem-solving thinking rather than rote memorization.
 
 ### Key Takeaways
 
-#### Design Mindset
+#### Mindset & Career Direction
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+- **Understanding the real landscape**: Clearly recognizing the demanding requirements and shifting trends of today's job market to prepare early and avoid being caught off guard at graduation.
+- **Developing self-learning and adaptability**: Building flexible thinking to more easily bridge the gap between textbook theory and the demanding requirements of modern enterprises.
 
-#### Technical Architecture
+#### Soft Skills & Psychology
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+- **Managing emotions and fears**: Learning to control psychological pressure, overcome communication anxiety, and confidently demonstrate capabilities in team settings and presentations.
+- **Professional conduct skills**: Building and maintaining effective, respectful relationships with colleagues, superiors, and clients in an international work environment.
 
-#### Modernization Strategy
+### Applying to Work & Study
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
-
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- **Leverage quality learning resources**: Enroll in student support initiatives like AWS First Cloud Journey to upskill, access the latest tech knowledge, and earn valuable international certifications.
+- **Proactively close the real-world gap**: Bring system operations, code optimization, security, and cloud deployment challenges into graduation projects or personal university projects.
+- **Build confidence and initiative**: Actively participate in clubs and tech communities, embrace challenges, and don't be afraid to make mistakes in order to accumulate real hands-on experience.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Attending this workshop gave me deeply meaningful and valuable experiences:
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+- **Multi-dimensional perspectives from different roles**: Hearing comprehensive views from Solution Architects, Account Managers, and Cloud Engineers helped me clearly visualize the org chart, workflow, and operational ecosystem of a large-scale tech project.
+- **Strong inspiration and motivation**: Realizing that the initial difficulties and confusion are inevitable milestones that every successful engineer has gone through, which reinforced my confidence and helped me define a clearer development roadmap for my future tech career.
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+### Photos from the Event
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+*Below are some photos capturing memorable moments throughout the workshop:*
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+- **Photo 1**: Lively interaction between speaker Nguyễn Gia Hưng and students during the tech trends sharing session.
+- **Photo 2**: Guests and young participants engaged in group discussions, answering questions about digital transformation roadmaps and cloud architecture.
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap:12px; align-items:start;">
+  <img src="/images/4-Event/4.2%20(1).jpg" alt="Event photo 1" width="100%" style="border-radius:6px;">
+  <img src="/images/4-Event/4.2%20(2).jpg" alt="Event photo 2" width="100%" style="border-radius:6px;">
+  <img src="/images/4-Event/4.2%20(3).jpg" alt="Event photo 3" width="100%" style="border-radius:6px;">
+  <!-- <img src="/images/4-Event/4.2%20(4).jpg" alt="Event photo 4" width="100%" style="border-radius:6px;"> -->
+  <img src="/images/4-Event/4.2%20(5).jpg" alt="Event photo 5" width="100%" style="border-radius:6px;">
+  <!-- <img src="/images/4-Event/4.2%20(6).jpg" alt="Event photo 6" width="100%" style="border-radius:6px;"> -->
+</div>
 
-#### Some event photos
-*Add your event photos here*  
+### Overall
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+> **Summary**: The workshop not only provided a strategic big-picture overview of the IT industry and AWS cloud computing, but also delivered invaluable real-world lessons from leading experts. The combination of in-depth technical knowledge, development guidance from specialists, and honest advice from experienced professionals helped attendees break down psychological barriers and better understand the gap between academia and the enterprise world.

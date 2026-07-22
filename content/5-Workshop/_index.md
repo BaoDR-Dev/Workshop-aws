@@ -1,31 +1,31 @@
 ---
 title: "Workshop"
-date: 2024-01-01
+date: 2026-07-10
 weight: 5
 chapter: false
 pre: " <b> 5. </b> "
 ---
+
+## Workshop Outcomes
+
+Learners deploy the Spring Boot RecruitBox application end-to-end on AWS following the CloudFront → ALB → EC2 → RDS model, storing CVs/artifacts on S3 and monitoring with CloudWatch/SNS.
+
+**Web Application:** [RecruitBox](https://d32lxiso1iao8j.cloudfront.net/)<br>
+**Source Code:** [View here](https://github.com/Tiennnn1107/RecruitPro-Springboot)<br>
+**Web Feature Demo Video:** [View here](https://youtu.be/KYXhFO2_IjI?si=dSwqP4bfRtKRo2tI)
+
+## How to Follow
+
+Follow sequentially from 5.1 to 5.12. Each section includes objectives, prerequisites, steps on the AWS Console/CLI, expected results, testing, and clean-up.
+
+## Completion Criteria
+
+- Architecture and request flow are explained; each service has a reason for selection.
+- EC2/RDS runs in a private subnet; users only access via CloudFront/ALB.
+- Application logs are centralized; key metrics and alarms send email notifications via SNS.
+- Functional, error, and basic security test scenarios are tested.
+- Cost estimates, least privilege principles, and a resource deletion process are provided.
+
 {{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
+NAT Gateway, ALB, RDS, EC2, and CloudFront may incur costs. Complete section 5.12 immediately after finishing the hands-on practice.
 {{% /notice %}}
-
-# Secure Hybrid Access to S3 using VPC Endpoints
-
-#### Overview
-
-**AWS PrivateLink** provides private connectivity to AWS services from VPCs and your on-premises networks, without exposing your traffic to the Public Internet.
-
-In this lab, you will learn how to create, configure, and test VPC endpoints that enable your workloads to reach AWS services without traversing the Public Internet.
-
-You will create two types of endpoints to access Amazon S3: a Gateway VPC endpoint, and an Interface VPC endpoint. These two types of VPC endpoints offer different benefits depending on if you are accessing Amazon S3 from the cloud or your on-premises location
-+ **Gateway** - Create a gateway endpoint to send traffic to Amazon S3 or DynamoDB using private IP addresses.You route traffic from your VPC to the gateway endpoint using route tables.
-+ **Interface** - Create an interface endpoint to send traffic to endpoint services that use a Network Load Balancer to distribute traffic. Traffic destined for the endpoint service is resolved using DNS.
-
-#### Content
-
-1. [Workshop overview](5.1-Workshop-overview)
-2. [Prerequiste](5.2-Prerequiste/)
-3. [Access S3 from VPC](5.3-S3-vpc/)
-4. [Access S3 from On-premises](5.4-S3-onprem/)
-5. [VPC Endpoint Policies (Bonus)](5.5-Policy/)
-6. [Clean up](5.6-Cleanup/)

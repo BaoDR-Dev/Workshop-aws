@@ -5,40 +5,38 @@ weight: 1
 chapter: false
 ---
 
-    
 # Internship Report
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
-
 ### Student Information:
-&emsp; **Full Name:** Nguyen Van A
 
-&emsp; **Phone Number:** 0989888999 
+&emsp; **Full Name:** Võ Lê Gia Bảo
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Phone Number:** 0794277448
 
-&emsp; **University:** Ho Chi Minh City University of Technology and Education
+&emsp; **Email:** volegiabao04082004@gmail.com
+
+&emsp; **University:** Ho Chi Minh City University of Technology
 
 &emsp; **Major:** Information Technology
 
-&emsp; **Class:** AWS082025
+&emsp; **Class:** 22DTHE7
 
-&emsp; **Internship Company:** Amazon Web Services Viet Nam Company Limited
+&emsp; **Team Name:** NTM
 
-&emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
+&emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 
-&emsp; **Internship Duration:** From 12/08/2025 to 12/11/2025
+&emsp; **Internship Position:** FCJ Cloud Intern
 
-![Your profile picture](/images/avatar.png)
+&emsp; **Internship Duration:** From April 17, 2026 to July 30, 2026
+
+<img src="/images/avatar.jpg" alt="Profile photo" width="70%" style="border-radius:6px;">
 
 ### Report Content
 
-1.  [Worklog](1-Worklog/)
-2.  [Proposal](2-Proposal/)
-3.  [BlogsPosted](3-BlogsPosted/)
-4.  [Events Participated](4-EventParticipated/)
-5.  [Workshop](5-Workshop/)
-6.  [Self-evaluation](6-Self-evaluation/)
-7.  [Sharing and Feedback](7-Feedback/)
+1. [Worklog](1-Worklog/)
+2. [Proposal](2-Proposal/)
+3. [Blogs Posted](3-BlogsPosted/)
+4. [Events Participated](4-EventParticipated/)
+5. [Workshop](5-Workshop/)
+6. [Self-Assessment](6-Self-evaluation/)
+7. [Sharing and Feedback](7-Feedback/)

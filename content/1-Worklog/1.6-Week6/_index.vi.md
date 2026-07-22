@@ -1,58 +1,24 @@
----
+﻿---
 title: "Worklog Tuần 6"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+### Các công việc tuần 6:
 
+| Nội dung công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- |
+| - Tìm hiểu và làm quen với môi trường phát triển tích hợp AWS Cloud9.<br>- Cài đặt, cấu hình và thực hành các câu lệnh cơ bản với AWS CLI. | 24/05/2026 | 24/05/2026 | [Tài liệu chương trình](https://000049.awsstudygroup.com/) |
+| - Tìm hiểu về dịch vụ lưu trữ đối tượng Amazon S3.<br>- Nắm vững cách quản lý, upload đối tượng và cấu hình S3 Static Website Hosting. | 25/05/2026 | 26/05/2026 | [Tài liệu chương trình](https://000057.awsstudygroup.com/1-introduce/) |
+| - Tìm hiểu về dịch vụ mạng phân phối nội dung Amazon CloudFront.<br>- Kết hợp CloudFront với S3 để tối ưu hóa tốc độ truyền tải nội dung. | 27/05/2026 | 27/05/2026 | [Tài liệu chương trình](https://000057.awsstudygroup.com/7-cloudfront/) |
+| - Thực hành tổng hợp: Triển khai một website tĩnh hoàn chỉnh lên AWS sử dụng S3. | 28/05/2026 | 28/05/2026 | [Tài liệu chương trình](https://000057.awsstudygroup.com/6-testwebsite/) |
 
-### Mục tiêu tuần 6:
+### Kết quả đạt được sau tuần làm việc:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
-
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Kết quả đạt được tuần 6:
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+- **Công cụ quản lý dòng lệnh và môi trường**: Thành thạo việc sử dụng AWS Cloud9 làm môi trường phát triển trên nền đám mây và nắm vững các thao tác quản lý tài nguyên thông qua AWS CLI.
+- **Lưu trữ đám mây và Website tĩnh**: Hiểu sâu về cách vận hành của Amazon S3, biết cách upload file, cấu hình phân quyền và đưa website tĩnh lên môi trường internet thành công.
+- **Tối ưu hóa và phân phối nội dung**: Nắm bắt cách sử dụng Amazon CloudFront để phân phối nội dung nhanh chóng, bảo mật và giảm tải cho máy chủ nguồn.
+- **Triển khai thực tế**: Hoàn thiện toàn bộ quy trình đưa một ứng dụng web tĩnh lên môi trường AWS một cách chuyên nghiệp và hiệu quả.
 
 

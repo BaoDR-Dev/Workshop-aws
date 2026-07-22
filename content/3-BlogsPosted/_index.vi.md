@@ -6,17 +6,16 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-{{% notice warning %}}  
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+Tại đây là phần liệt kê, giới thiệu các blogs đã được đăng trên [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj).
 
-Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà các bạn đã đăng trên [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). Ví dụ:
+### [Blog 1 - Hướng dẫn chuyển đổi từ Amazon EC2 sang EKS Auto Mode với Kiro CLI và MCP Servers](3.1-Blog1/)
 
-###  [Blog 1 - SESSION POLICIES TRONG AMAZON EKS POD IDENTITY](3.1-Blog1/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+Blog hướng dẫn cách di chuyển ứng dụng từ EC2 sang EKS Auto Mode bằng Kiro CLI và MCP Servers. Nội dung bao gồm lý do chọn EKS Auto Mode để giảm tải quản lý hạ tầng, cách Kiro CLI phân tích và đề xuất kế hoạch di chuyển, MCP Servers xây dựng validation gate cho từng bước, và quy trình containerize, tạo cluster rồi chuyển traffic thực tế để giảm thiểu rủi ro.
 
-###  [Blog 2 - ...](3.2-Blog2/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+### [Blog 2 - Tự động hóa pipeline 3D cho production với AWS VAMS và 4D Pipeline](3.2-Blog2/)
 
-###  [Blog 3 - ...](3.3-Blog3/)
-Blog này giới thiệu Amazon EKS Pod Identity vừa bổ sung tính năng session policies, cho phép bạn thu hẹp quyền IAM một cách linh hoạt và chính xác cho từng pod mà không cần tạo thêm nhiều IAM roles riêng biệt. Đây là bước tiến quan trọng giúp áp dụng nguyên tắc least privilege hiệu quả hơn trong môi trường Kubernetes quy mô lớn.
+Blog trình bày cách AWS Visual Asset Management System (VAMS) kết hợp với 4D Pipeline để tự động hóa toàn bộ luồng xử lý tài nguyên 3D từ khâu thiết kế trên công cụ DCC như VStitcher đến khi phân phối lên e-commerce. Giải pháp này giúp loại bỏ các bước handoff thủ công, rút ngắn time-to-market và ứng dụng được trong nhiều ngành như thời trang, ô tô, nội thất.
+
+### [Blog 3 - AWS ra mắt Partner Agent Factory để thúc đẩy AI Agent cho doanh nghiệp](3.3-Blog3/)
+
+Blog giới thiệu chương trình Partner Agent Factory (PAF) thuộc AWS Generative AI Innovation Center, nơi AWS hợp tác với các đối tác công nghệ để xây dựng và kiểm chứng AI Agent sẵn sàng cho doanh nghiệp. Bài viết điểm qua các ví dụ thực tế như ETL Crew, Conversational Banking và QAIssist, đồng thời phân tích vì sao xu hướng Agentic AI đang chuyển nhanh từ thử nghiệm sang production.

@@ -1,57 +1,27 @@
 ---
-title: "Week 11 Worklog"
+title: "Worklog Week 11"
 date: 2024-01-01
 weight: 2
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+### Tasks for Week 11:
 
+| Task Description | Start Date | Completion Date | Reference |
+| --- | --- | --- | --- |
+| - Prepare source code, build the frontend, and package the backend/serverless source code for the recruitment website. | 29/06/2026 | 30/06/2026 | [Video](https://www.youtube.com/watch?v=1QtHHtKF4sM) |
+| - Initialize and configure Amazon RDS MySQL, set up DB Subnet Group and RDS Security Group to secure the database. | 30/06/2026 | 30/06/2026 | [Video](https://www.youtube.com/watch?v=LnFigcaED_Y) |
+| - Create and configure an EC2 Instance as the main application server, set up Security Group, and verify connectivity with RDS. | 01/07/2026 | 01/07/2026 | [Video](https://www.youtube.com/watch?v=Vdg52Fj0RP8) |
+| - Write and configure AWS Lambda Functions to handle independent logic features (e.g., email sending, authentication, or asynchronous APIs). | 02/07/2026 | 02/07/2026 | [Video](https://www.youtube.com/watch?v=Vdg52Fj0RP8) |
+| - Deploy the backend source code to EC2, configure Lambda integration, connect the database, and set up Amazon CloudWatch Logs for system monitoring. | 03/07/2026 | 03/07/2026 | [Video](https://www.youtube.com/watch?v=ghIltBUCyns) |
+| - Create an S3 Bucket, upload the frontend interface, and configure Amazon CloudFront with OAC for secure website distribution. | 04/07/2026 | 04/07/2026 | [Video](https://www.youtube.com/watch?v=ZyVexd5XwTE) |
+| - Perform comprehensive testing (System Integration & Performance Testing) of the connectivity between Frontend, Backend, Database, and AWS Lambda Functions. | 04/07/2026 | 04/07/2026 | |
+| - Consolidate documentation, complete the Workshop report, and hand over the project deliverable. | 05/07/2026 | 04/07/2026 | |
 
-### Week 11 Objectives:
+### Achievements:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
-
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-
-
-### Week 11 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+- **Completed Full-stack system on AWS**: Successfully deployed the recruitment demo website on the AWS cloud platform with all components: Frontend, Backend, Database, and Serverless.
+- **Infrastructure & Database operations**: Securely configured EC2 server and RDS MySQL database combined with a network security system.
+- **Serverless integration & Monitoring**: Used AWS Lambda for independent processing tasks and monitored the system through CloudWatch.
+- **High-speed Frontend distribution**: Hosted the interface on S3 and optimized content delivery with CloudFront (CDN).
+- **Workshop completion**: Comprehensively tested all services and successfully handed over the project deliverable.

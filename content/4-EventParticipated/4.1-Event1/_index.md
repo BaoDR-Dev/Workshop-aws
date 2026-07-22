@@ -1,126 +1,81 @@
 ---
-title: "Event 1"
+title: "Event 13/06/2026 - FCAJ Community Day"
 date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
+# Event Summary: AWS Technology & Career Guidance Day
 
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- Share personal growth journeys from student to professional roles in the tech industry
+- Provide a realistic perspective on the day-to-day work of engineers at multinational companies
+- Guide learning roadmaps and the development of technical skills and career mindset
+- Connect the community for learning, practice, and knowledge sharing in technology
 
-### Speakers
+### Speakers & Guests
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+- **Danh Hoàng Hiếu Nghị** – AI Engineer
+- **Hoàng Trọng** – DevOps Engineer at Endava Vietnam
+- **Đạt Phạm & Cường Nguyễn** – Data Analytics Engineer & Process Engineer
+- **Đinh Trung Kiên & Nguyễn Minh Thọ** – Lead Developer at a startup & Student
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### 1. Personal Growth and Community Journey (First Cloud AI Journey & AWS Student Builder Group)
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+- **8-step development roadmap**: Starting with finding the right environment, learning from others, learning through hands-on practice, applying knowledge to real problems, demonstrating capability, solving real-world challenges, and helping build the next generation.
+- **Opportunities and benefits**: Programs like AWS Student Builder Group provide access to learning resources, certifications, swag, and vibrant community networking events.
 
-#### Transitioning to modern application architecture – Microservices
+#### 2. A Realistic View of the DevOps Role
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+- **Reality of the work**: DevOps is not just about writing CI/CD pipelines or configuring Docker/K8s. It also means acting as a bridge, resolving operational incidents, and optimizing processes.
+- **Essential foundations**: Start with Linux, basic networking, programming (Python, Golang), Git, CI/CD, and containerization tools.
+- **Work philosophy**: "Copying commands is not the same as understanding" and "Communication is part of the job."
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+#### 3. The Data Analytics Engineer Role and Multinational Corporate Culture (MNCs)
 
-#### Domain-Driven Design (DDD)
-
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
-
-#### Event-Driven Architecture
-
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+- **Day-to-day work**: Building operational reports, designing dashboards to track data trends, analyzing business metrics, and collaborating across departments to find root causes.
+- **Core skills**: Critical thinking, communication, data storytelling, and problem solving.
+- **Standard hiring process**: From automated resume screening (ATS), aptitude/logic tests, technical interviews (STAR model) to cultural fit evaluation.
+- **Corporate culture**: Learning about the *No-Blame Post-Mortem* culture in tech companies and the *Caring & Inclusive* culture in large corporations.
 
 ### Key Takeaways
 
-#### Design Mindset
+#### Mindset & Career Direction
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+- **Personal growth model**: Understanding the progression stages from *Follower* → *Learner* → *Problem Solver* → *System Thinker* → *Super Star*.
+- **Systems thinking**: Viewing problems from a big-picture perspective, understanding cross-functional relationships, and focusing on long-term system optimization.
 
-#### Technical Architecture
+#### Technical & Core Skills
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+- **Strong foundations**: Emphasizing the importance of mastering fundamentals (Linux, networking, Git) rather than chasing short-lived tools.
+- **Effective use of AI**: Leveraging AI to boost productivity without becoming fully dependent or "turning off your brain."
 
-#### Modernization Strategy
+### Applying to Work & Study
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
-
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+- **Active learning model**: Consistently asking "why" before exploring "how" in personal and academic projects.
+- **Soft skill development**: Practicing communication and critical thinking skills when working in teams or analyzing data.
+- **Building a personal portfolio**: Gradually accumulating experience through lab exercises, school projects, and participation in the tech community.
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Attending this AWS community event series gave me incredibly valuable experiences:
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+- **Learning from experts**: Hearing real-world insights from experienced engineers and speakers working at major tech corporations.
+- **Networking**: Connecting with like-minded peers passionate about technology from various universities through both online and in-person activities.
+- **Expanding perspective**: Shifting my outlook on learning, working in an international corporate environment, and shaping a clearer vision for a future career in technology.
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+#### Some photos from the event
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+<div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap:12px; align-items:start;">
+  <img src="/images/4-Event/4.1.1.jpg" alt="Event photo 1" width="100%" style="border-radius:6px;">
+  <img src="/images/4-Event/4.1.2.jpg" alt="Event photo 2" width="100%" style="border-radius:6px;">
+  <img src="/images/4-Event/4.1.3.jpg" alt="Event photo 3" width="100%" style="border-radius:6px;">
+  <img src="/images/4-Event/4.1.4.jpg" alt="Event photo 4" width="100%" style="border-radius:6px;">
+  <img src="/images/4-Event/4.1.5.jpg" alt="Event photo 5" width="100%" style="border-radius:6px;">
+</div>
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+> **Overall:** The event not only provided in-depth technical knowledge about Cloud, DevOps, and Data but also strongly inspired a spirit of self-learning, personal growth mindset, and how to integrate into the global tech environment.
