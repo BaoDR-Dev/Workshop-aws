@@ -1,6 +1,6 @@
 baseURL = "https://baodr-dev.github.io/Workshop-aws/"
-relativeURLs = false
-canonifyURLs = true
+relativeURLs = true
+canonifyURLs = false
 defaultContentLanguage = "en"
 
 # Change the default theme to be use when building the site with Hugo
