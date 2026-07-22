@@ -9,7 +9,7 @@ chapter: false
 
 ### Student Information:
 
-&emsp; **Full Name:** Võ Lê Gia Bảo
+&emsp; **Full Name:** Vo Le Gia Bao
 
 &emsp; **Phone Number:** 0794277448
 
