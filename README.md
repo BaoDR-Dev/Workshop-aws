@@ -10,8 +10,9 @@
 | Họ và tên | Võ Lê Gia Bảo |
 |---|---|
 | Email | volegiabao04082004@gmail.com |
-| Trường | Đại học Công Nghệ Thông Tin TP.HCM (UIT) |
+| Trường | Đại học Công Nghệ Thông Tin TP.HCM (HTECH) |
 | Lớp | 22DTHE7 |
+| Nhóm | NTM|
 | Vị trí thực tập | FCJ Cloud Intern |
 | Thời gian | 17/04/2026 – 30/07/2026 |
 | Công ty | Amazon Web Services Vietnam Co., Ltd. |
