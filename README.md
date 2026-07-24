@@ -1,7 +1,6 @@
 # 📋 Báo Cáo Thực Tập – FCJ Cloud Intern
 
-> Hugo-based internship report for the **AWS First Cloud Journey** program.  
-> Deployed at: [https://workshop-sample.awsfcaj.com/](https://workshop-sample.awsfcaj.com/)
+> Deployed at: [https://baodr-dev.github.io/Workshop-aws/](https://baodr-dev.github.io/Workshop-aws/)
 
 ---
 
