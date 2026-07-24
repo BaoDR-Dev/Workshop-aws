@@ -30,41 +30,7 @@
 7. Feedback         — Chia sẻ và đóng góp ý kiến
 ```
 
----
-
-## 🏗️ Tech Stack
-
-| Layer | Service |
-|---|---|
-| CDN / Entry | Amazon CloudFront |
-| Load Balancing | Application Load Balancer |
-| Compute | Amazon EC2 (private subnet) |
-| Database | Amazon RDS MySQL (private subnet) |
-| Storage | Amazon S3 |
-| Monitoring | Amazon CloudWatch + SNS |
-| Network | Amazon VPC, NAT Gateway, Route Table |
-
----
-
-## 🚀 Chạy Local
-
-```bash
-# Yêu cầu: Hugo extended >= 0.100
-hugo server
-```
-
-Truy cập tại: `http://localhost:1313`
-
----
-
-## 📦 Deploy
-
-Site tự động build và deploy qua **GitHub Actions** khi push lên branch `main`.
-
----
-
 ## 🔗 Links
 
 - 🌐 Web ứng dụng RecruitBox: [recruitbox.tiendev.id.vn](https://recruitbox.tiendev.id.vn)
 - 💻 Source code: [Tiennnn1107/RecruitPro-Springboot](https://github.com/Tiennnn1107/RecruitPro-Springboot)
-- 📘 AWS Study Group: [awsstudygroup.com](https://awsstudygroup.com)
